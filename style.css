@@ -24,21 +24,15 @@
     transition: .3 ease;
     transition-property: background-color;
     border: solid black 2px;
-    
 }
 
 #top-section hr{
-    margin-top: 60px;
-    
+    margin-top: 60px;    
 }
 
 #top-section{
     margin-top: 200px;
 }
-
-
-
-
 
 #in-nav-links::after{
     content: '';
@@ -51,7 +45,6 @@
     left: 0;
     opacity: 0.6;
     z-index: -1;
-
 }
 
 .link1{
@@ -70,27 +63,17 @@
     background-color:rgba(216, 216, 216, 0.8);
     color: black;
     box-shadow: 5px 5px 5px black;
-    
 }
 
 .link1:active {
     color: crimson;
 }
-
-
-
-
 /* End Internal Nav Links */
-
-
-
-
-
 
 #scroll-to-top{
     position:fixed;
-    right:10px;
-    bottom:10px;
+    right:15px;
+    bottom:15px;
     font-family: 'source code pro', monospace;
     border: none;
     box-shadow: 5px 10px 18px #888888;
@@ -105,7 +88,7 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-        
+    z-index: 2;
 }
 
 
