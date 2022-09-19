@@ -4,13 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Marck+Script&family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-
-
-
-
-
-
-
 /* Internal Nav Links */
 
 #in-nav-links{
@@ -172,103 +165,76 @@ body {
 }
 
 #top-section img{
-    width: 600px;
     display: block;
+    width: 30rem;
     margin: auto;
-    width: 250px;
     box-shadow: #333 2px 2px 2px;
     border: solid #333 1.5px;
-    max-width: 100%;
 }
 
 #map img{
-    
-    width: 550px;
-    height: 500px;
+    width: 40rem;
+    height: 40rem;
     display: block;
     margin: auto;
     size: 300px;
     box-shadow: #333 2px 2px 2px;
     border: solid #333 1.5px;
     max-width: 100%;
-    
-   
 }
-
-
-
-
-
-
-    
-    
 
 
 .styleclass #img1 /*London Harbor*/{
     border: solid #333 1.5px;
-    max-width: 100%;
-   
-    
-
-    
+        
 }
 
 .styleclass #img2 /*Painting Bangkok Harbor*/{
-    float: left;
-    width: 613px;
-    height: 500px;
-    margin-left: 4px;
+    width: 40rem;
+    height: 33rem;
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
-    margin-bottom: 40px;
-
 }
 
 .styleclass #img3 /*Photograph Bangkok Harbor*/{
-    float: right;
-   width: 613px;
-   height: 500px;
-   margin-right: 4px;
-   border: solid  #333 1.5px;
-   box-shadow: #333 2px 2px 2px;
-   margin-bottom: 40px;
+    width: 40rem;
+    height: 33rem;
+    border: solid  #333 1.5px;
+    box-shadow: #333 2px 2px 2px;
 }
 
+.bk-harbor-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3rem; 
+}
 
 .styleclass #img4 /*Ayutthaya Budhha*/{
     border: solid  #333 1.5px;
-   box-shadow: #333 2px 2px 2px;
-   height: 450px;
-   width: 400px;
-   margin-right: 10;
-    
+    box-shadow: #333 2px 2px 2px;
+    height: 28rem;
+    width: 23rem;
 }
 
 .styleclass #ayutemp{
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
-    height: 450px;
-    width: 400px;
-    float: left;
-    margin-left: 10px;
-
+    height: 28rem;
+    width: 23rem;
 }
 
 .styleclass #buddhahead{
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
-    height: 450px;
-    width: 400px;
-    float: right;
-    margin-left: 10px;
-    
+    height: 28rem;
+    width: 23rem;
 }
 
 #cambodia img /*Cambodians Eating*/{
     border: solid  #333 1.5px;
    box-shadow: #333 2px 2px 2px;
-   width: 610px;
-   margin-left: 5px;
+   width: 40rem;
    
 }
 
@@ -397,13 +363,7 @@ grid-row: 2;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 5rem;
-}
-
-.bk-harbor-img-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+   
 }
 
     .styleclass #img1{
@@ -482,6 +442,10 @@ grid-row: 2;
  
 #bkk{
     margin-top: 75px;
+}
+
+#cambodia p {
+    margin-bottom: 3rem;
 }
 
 .styleclass #october1 {
@@ -687,14 +651,26 @@ grid-row: 2;
 
 /* end footer */
 
+@media min-width(1920px) {
 
-/* Keyframes */
+}
 
+@media max-width(1200px) {
+    
+} 
 
+@media max-width(768px) {
 
+} 
 
+@media max-width(480px) {
 
+} 
 
+@media max-width(400px) {
 
-/* End Keyframes */
+} 
 
+@media max-width(360px) {
+
+} 
