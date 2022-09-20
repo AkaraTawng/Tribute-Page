@@ -136,6 +136,12 @@ h2{
     margin-top: 3rem;
 }
 
+#map {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: -5rem;
+}
 /*---------images-------*/
 body {
     background-image: url("img/white-waves.png");
@@ -165,10 +171,58 @@ body {
     max-width: 100%;
 }
 
+#greek {
+    margin-top: 3rem;
+    /* padding: 0 8%; */
+}
+
+.exp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp img {
+    height: 28rem;
+    width: 25rem;
+}
+
+.exp #imagex1 {
+    box-shadow: #333 2px 2px 2px;
+    /* margin-left: 4rem; */
+}
+
+.exp #imagex2 {
+    box-shadow: #333 2px 2px 2px;
+}
+
+.exp #imagex3 {
+    box-shadow: #333 2px 2px 2px;
+}
+
+#jersey {
+    display: flex;
+    margin-top: 6rem;
+    margin-right: -11rem;
+} 
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+#birdseye {
+    width: 30rem;
+}
+
+#coastline {
+    margin-top: 3rem;
+    width: 30rem;
+}
 
 .styleclass #img1 /*London Harbor*/{
     border: solid #333 1.5px;
-        
 }
 
 .styleclass #img2 /*Painting Bangkok Harbor*/{
@@ -222,7 +276,7 @@ body {
 #angkor .angkorgrid{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr;
 }
 
 #cambodia .grid-container img{
@@ -297,33 +351,6 @@ grid-row: 2;
     height: 400px;
 }
 
-.exp #imagex1 {
-    float: right;
-    height: 450px;
-    width: 32%;
-    box-shadow: #333 2px 2px 2px;
-}
-
-.exp #imagex2 {
-    float: left;
-    height: 450px;
-    width: 32%;
-    box-shadow: #333 2px 2px 2px;
-}
-
-.exp #imagex3 {
-    height: 450px;
-    width: 32%;
-    box-shadow: #333 2px 2px 2px;
-}
-
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 5rem;
-}
-
 .styleclass #img1{
     display: block;
     width: 50%;
@@ -377,16 +404,18 @@ grid-row: 2;
     line-height: 35px;
     font-size: 1rem;
     padding: 0 3%;
+    width: 50%;
+    padding-right: 6rem;
+}
+
+#tribute-info {
+    margin-top: 4rem;
 }
 
 #jersey p{
-    margin-bottom: 60px;
-    margin-top: 40px;
-}
-
-#greek p{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 9rem;
+    line-height: 2.5rem;
+    width:45%;
 }
  
 #bkk{
