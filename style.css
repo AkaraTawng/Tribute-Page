@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    padding: 0 3%;
+}
+
 /* Internal Nav Links */
 #in-nav-links{
     background-image: url(img/img40.png);
@@ -212,22 +216,18 @@ body {
 #cambodia img /*Cambodians Eating*/{
     border: solid  #333 1.5px;
    box-shadow: #333 2px 2px 2px;
-   width: 40rem;
-   
+   width: 40rem;   
 }
 
 #angkor .angkorgrid{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr ;
-    
-    
 }
 
 #cambodia .grid-container img{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-  
 }
 
 .grid-container #farmer{
@@ -236,15 +236,10 @@ body {
     height: 403px;
 }
 
-
 #angkor img /*Girls Dancing*/{
     border: solid  #333 1.5px;
-   box-shadow: #333 2px 2px 2px;
-
-   
-    
+   box-shadow: #333 2px 2px 2px; 
 }
-
 
 .angkorgrid #item1{ /*Girls Dancing*/
     grid-column: 1/2;
@@ -263,7 +258,6 @@ body {
     margin-top: 20px;
     width: 550px;
     height: 320px;
-    
 }
 
 .angkorgrid #item5{ /* Prayers*/
@@ -280,20 +274,13 @@ grid-row: 2;
 margin-left: 10px;
 height: 368px;
 width: 645px;
-
-
 }
 
 .angkorgrid #item4{ /*Elephant Riders*/
 width: 550px;
 grid-column: 2;
 grid-row: 2;
-
-
-
 }
-
-
 
 #lao img /*Mouhot Meeting in Village*/{
     border: solid  #333 1.5px;
@@ -302,15 +289,12 @@ grid-row: 2;
     display: block;
     margin: auto;
     margin-bottom: 40px;
-
-   
 }
 
 #dl img /*Tomb*/{
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
     height: 400px;
-   
 }
 
 .exp #imagex1 {
@@ -318,7 +302,6 @@ grid-row: 2;
     height: 450px;
     width: 32%;
     box-shadow: #333 2px 2px 2px;
-
 }
 
 .exp #imagex2 {
@@ -326,7 +309,6 @@ grid-row: 2;
     height: 450px;
     width: 32%;
     box-shadow: #333 2px 2px 2px;
-
 }
 
 .exp #imagex3 {
@@ -335,77 +317,66 @@ grid-row: 2;
     box-shadow: #333 2px 2px 2px;
 }
 
-
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 5rem;
-   
 }
 
-    .styleclass #img1{
-        display: block;
-        width: 50%;
-        margin: auto;
-        margin-top: 35px;
-    }
+.styleclass #img1{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+}
 
-    .tombgrid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr)
-        
-    }
-
-    .tombgrid #tomb1 /*tomb surrounded by jungle*/ {
-        grid-row: 1;
-        margin-left: 180px;
-
-    }
+.tombgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr)
     
+}
+
+.tombgrid #tomb1 /*tomb surrounded by jungle*/ {
+    grid-row: 1;
+    margin-left: 180px;
+
+}
+
+
+.tombgrid #tomb2 /*other angle of tomb*/ {
+    grid-row: 1;
+    margin-left: -320px;
+    width: 590px;
     
-    .tombgrid #tomb2 /*other angle of tomb*/ {
-        grid-row: 1;
-        margin-left: -320px;
-        width: 590px;
-        
 
-    }
-    
-    
-    .tombgrid #tomb3 /*river*/ {
-        margin-left: 180px;
-        width: 600px;
-        margin-top: 8px;
-
-    }
-    
-    
-    .tombgrid #tomb4 /*Statue*/ {
-        margin-left: 15px;
-        margin-top: 8px;
-
-    }
+}
 
 
+.tombgrid #tomb3 /*river*/ {
+    margin-left: 180px;
+    width: 600px;
+    margin-top: 8px;
 
+}
+
+
+.tombgrid #tomb4 /*Statue*/ {
+    margin-left: 15px;
+    margin-top: 8px;
+
+}
 /*---------end images---------*/
 
-
-
-
-
-
 /*---------paragraph--------- */
-
 .styleclass p{
     font-family: 'Indie Flower', cursive;
     text-align: center;
     letter-spacing: 0.2em;
     line-height: 35px;
-    /* font-weight: 600; */
-    font-size: 14px;
+    font-size: 1rem;
+    padding: 0 3%;
 }
 
 #jersey p{
