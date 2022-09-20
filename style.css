@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Marck+Script&family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+body {
+    overflow-x: hidden;
+}
+
 /* Internal Nav Links */
 
 #in-nav-links{
@@ -545,47 +549,14 @@ grid-row: 2;
     margin-top: 100px;
 }
 
-
 /* footer */
-
-
-
 .footertext{
     border: 2px solid white;
     padding: 10px;
-     color: white;
-     text-decoration: none;
-     display: flex;
-    align-items: center;
-    position: absolute;
-
-   
-    
-
-   
-    
+    color: white;
+    text-decoration: none;
+    /* margin-left: 32rem; */
 }
-
-.footer #tribute-link{
-    margin-top: 30px;
-    margin-left: 550px;
-    
-    
-   
-    
-
-}
-
-
-#footerlink2{
-    margin-top: 90px;
-    margin-left: 575px;
-  
-    
-
-    
-}
-
 
 .footer{
     background-image: url(img/img40.png);
@@ -596,6 +567,10 @@ grid-row: 2;
     background-position: center;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .footer::after{
@@ -608,7 +583,6 @@ grid-row: 2;
     background-color: black;
     opacity: 0.4;
     z-index: -1;
-
 }
 
 .footertext::after{
@@ -622,21 +596,20 @@ grid-row: 2;
     left: 0;
     opacity: 0.6;
     z-index: -1;
-
 }
 
 .footertext:hover{
-    background-color:#6b696a;
+    background-color:rgba(216, 216, 216, 0.8);
+    color: black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .footertext:active {
     color: crimson;
 }
-
-
 /* end footer */
 
-@media (`min-width: 1920px) {
+@media (min-width: 1920px) {
 
 }
 
