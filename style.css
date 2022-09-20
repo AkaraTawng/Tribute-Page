@@ -9,7 +9,6 @@ body {
 }
 
 /* Internal Nav Links */
-
 #in-nav-links{
     background-image: url(img/img40.png);
     background-repeat: no-repeat;
@@ -132,8 +131,8 @@ h2{
     text-align: center;
     margin-top: 3rem;
 }
-/*---------images-------*/
 
+/*---------images-------*/
 body {
     background-image: url("img/white-waves.png");
 }
@@ -144,7 +143,8 @@ body {
 
 #top-section img{
     display: block;
-    width: 30rem;
+    width: 20rem;
+    height: 25rem;
     margin: auto;
     box-shadow: #333 2px 2px 2px;
     border: solid #333 1.5px;
