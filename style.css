@@ -22,15 +22,12 @@ h3, h4 {
 }
 
 /* all paragraphs */
-.styleclass p{
+.styleclass p {
     font-family: 'Indie Flower', cursive;
-    text-align: center;
-    letter-spacing: 0.2em;
-    line-height: 35px;
-    font-size: 1rem;
-    padding: 0 3%;
-    width: 50%;
-    padding-right: 6rem;
+        text-align: center;
+        letter-spacing: 0.2em;
+        line-height: 35px;
+        font-size: 1rem;
 }
 
 /* all images */
@@ -201,10 +198,11 @@ h2{
 .exp {
     display: flex;
     justify-content: space-around;
+    padding: 0 2%;
 }
 
 .exp img {
-    height: 28rem;
+    height: 27rem;
     width: 25rem;
 }
 
@@ -223,13 +221,8 @@ h2{
 #jersey {
     display: flex;
     margin-top: 6rem;
-    margin-right: -11rem;
+    margin-right: -20rem;
 } 
-
-.jersey{
-    padding-top: 40px;
-    padding-bottom: 200px;
-}
 
 .flex-container{
     display: flex;
@@ -255,6 +248,16 @@ h2{
     margin-top: 9rem;
     line-height: 2.5rem;
     width:45%;
+}
+
+#early-life-p1{
+        width: 50%;
+        padding-right: 6rem;
+        padding-top: 2.5rem;
+}
+
+#early-life-p2 {
+
 }
 
 /******************** Siam ********************/
