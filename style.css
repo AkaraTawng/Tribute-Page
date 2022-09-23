@@ -307,22 +307,7 @@ h2{
     justify-content: space-around;
     margin-bottom: 3rem; 
 }
-
-.styleclass #img4 /*Ayutthaya Budhha*/{
-    border: solid  #333 1.5px;
-    box-shadow: #333 2px 2px 2px;
-    height: 28rem;
-    width: 23rem;
-}
-
-.styleclass #ayutemp{
-    border: solid  #333 1.5px;
-    box-shadow: #333 2px 2px 2px;
-    height: 28rem;
-    width: 23rem;
-}
-
-.styleclass #buddhahead{
+.siam-temples-img {
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
     height: 28rem;
@@ -559,8 +544,12 @@ h2{
     width: 29rem;
     height: 29rem;
 }
-} 
 
+.styleclass .siam-temples-img {
+    height: 21rem;
+    width: 19rem;
+}
+}
 @media (max-width: 770px) {
 
 } 
