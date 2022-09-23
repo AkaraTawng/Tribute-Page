@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    padding: 0 3%;
+    padding: 0 5%;
 }
 
 h3, h4 {
@@ -37,7 +37,7 @@ h3, h4 {
 
 /******************** Nav ********************/
 #in-nav-links{
-    background-image: url(img/img40.png);
+    background-image: url(img/navbasrelief.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -439,6 +439,7 @@ h2{
 
 #laop2 {
     padding-bottom: 35px;
+    margin-bottom: 3rem;
 }
 
 /******************** Death and Legacy ********************/
@@ -447,49 +448,23 @@ h2{
     margin-top: 50px;
 }
 
-#dl img /*Tomb*/{
+#dl img {
     border: solid  #333 1.5px;
-    box-shadow: #333 2px 2px 2px;
-    height: 400px;
 }
 
-.styleclass #img1{
-    display: block;
-    width: 50%;
-    margin: auto;
-    margin-top: 35px;
+.dl-p5 {
+    margin-bottom: 2rem;
 }
 
-.tombgrid{
+.mouhot-grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr)
-    
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 22rem 24rem;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+    width: 80%;
+    margin: 0 auto;
 }
-
-.tombgrid #tomb1 /*tomb surrounded by jungle*/ {
-    grid-row: 1;
-    margin-left: 180px;
-}
-
-.tombgrid #tomb2 /*other angle of tomb*/ {
-    grid-row: 1;
-    margin-left: -320px;
-    width: 590px;
-}
-
-.tombgrid #tomb3 /*river*/ {
-    margin-left: 180px;
-    width: 600px;
-    margin-top: 8px;
-}
-
-.tombgrid #tomb4 /*Statue*/ {
-    margin-left: 15px;
-    margin-top: 8px;
-
-}
-
 
 /******************** footer ********************/
 .footertext{
@@ -501,7 +476,7 @@ h2{
 }
 
 .footer{
-    background-image: url(img/img40.png);
+    background-image: url(img/navbasrelief.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
@@ -532,7 +507,6 @@ h2{
     display: block;
     width: 100%;
     height: 100%;
-    background-color;
     position: absolute;
     top: 0;
     left: 0;
