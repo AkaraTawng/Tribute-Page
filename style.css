@@ -534,6 +534,7 @@ h2{
 
 @media (max-width: 1200px) {
 
+/******************* early life ********************/
     #map {
         margin-left: -3rem;
     }
@@ -547,6 +548,17 @@ h2{
         height: 20rem;
         width: 19rem;
     }
+
+/******************** Siam ********************/
+.styleclass #img2 /*Painting Bangkok Harbor*/{
+    width: 29rem;
+    height: 29rem;
+}
+
+.styleclass #img3 /*Photograph Bangkok Harbor*/{
+    width: 29rem;
+    height: 29rem;
+}
 } 
 
 @media (max-width: 770px) {
