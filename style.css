@@ -567,23 +567,17 @@ h2{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    margin-left: 9rem;
+    margin-left: .5rem;
 }
 
 #map img{
     width: 25rem;
     height: 25rem;
-    display: block;
-    box-shadow: #333 2px 2px 2px;
-    border: solid #333 1.5px;
-    max-width: 100%;
-    margin-right: 25rem;
-    
 }
 
 #early-life-p1 {
-    width: 90%;
-    margin-left: -2rem;
+    width: 80%;
+    margin-left: 4.5rem;
   }
 
 /******************** Siam ********************/
