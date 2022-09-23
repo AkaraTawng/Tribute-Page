@@ -561,7 +561,36 @@ h2{
 }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 771px) {
+/******************* early life ********************/
+#map {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin-left: 9rem;
+}
+
+#map img{
+    width: 25rem;
+    height: 25rem;
+    display: block;
+    box-shadow: #333 2px 2px 2px;
+    border: solid #333 1.5px;
+    max-width: 100%;
+    margin-right: 25rem;
+    
+}
+
+#early-life-p1 {
+    width: 90%;
+    margin-left: -2rem;
+  }
+
+/******************** Siam ********************/
+
+/******************** Cambodia ********************/
+
+/******************** Death and Legacy ********************/
 
 } 
 
