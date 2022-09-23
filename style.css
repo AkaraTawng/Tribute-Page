@@ -642,7 +642,7 @@ h2{
 }
 
 /******************** Angkor Wat ********************/
-#angkor-p1 {
+#angkor-p1, #angkor-p2, #angkor-p3, #angkor-p4 {
     width: 80%;
     margin-left: 4.5rem;
 }
@@ -652,6 +652,9 @@ h2{
     width: 90%;
 }
 
+#angkor-p3, #angkor-p4 {
+    margin-top: 3rem;
+}
 
 
 
