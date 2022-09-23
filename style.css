@@ -696,6 +696,28 @@ h2{
 /* ---------------------------------------------------------------------- */
 
 @media (max-width: 480px) {
+
+    #mobile-menu-btn {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: -10rem;
+        filter: drop-shadow(5px 5px 5px rgb(117, 117, 117));
+        cursor: pointer;
+    }
+   
+    #mobile-menu-btn:hover {
+        filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+        transition: all .2s ease-in;
+    }
+    
+    #mobile-menu-btn:active {
+        filter: none;
+        transition: all .05s linear;
+    }
+    
     .link1 {
        
     }
