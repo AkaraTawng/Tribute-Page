@@ -346,7 +346,7 @@ h2{
 }
 
 #angkor-p2 { 
-    margin-top: 3remg;
+    margin-top: 3rem;
 }
 .gallery-item {
     width: 100%;
@@ -624,6 +624,25 @@ h2{
     width: 19rem;   
     height: 17rem;
 }
+
+#cambodia-p1 {
+    width: 80%;
+    margin-left: 4.5rem;
+}
+
+#cambodia-p2 {
+    width: 80%;
+    margin-left: 4rem;
+}
+
+#cambodia-p3 {
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: 4rem;
+}
+
+/******************** Angkor Wat ********************/
+
 
 
 
