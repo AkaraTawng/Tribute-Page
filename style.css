@@ -36,6 +36,10 @@ h3, h4 {
 }
 
 /******************** Nav ********************/
+#mobile-menu-btn {
+    display: none;
+}
+
 #in-nav-links{
     background-image: url(img/navbasrelief.png);
     background-repeat: no-repeat;
@@ -520,6 +524,8 @@ h2{
  /* okay but test again */
 }
 
+/* ---------------------------------------------------------------------- */
+
 @media (max-width: 1200px) {
 
 /******************* early life ********************/
@@ -562,6 +568,8 @@ h2{
     margin-top: 3rem;
 }
 }
+
+/* ---------------------------------------------------------------------- */
 
 @media (max-width: 771px) {
 /******************* early life ********************/
@@ -685,8 +693,16 @@ h2{
 }
 } 
 
-@media (max-width: 480px) {
+/* ---------------------------------------------------------------------- */
 
+@media (max-width: 480px) {
+    .link1 {
+       
+    }
+
+    #in-nav-links {
+      display: none;
+    }
 } 
 
 @media (max-width: 400px) {
