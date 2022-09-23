@@ -647,6 +647,13 @@ h2{
     margin-left: 4.5rem;
 }
 
+.angkor-grid-container {
+    grid-auto-rows: 100px 150px;
+    width: 90%;
+}
+
+
+
 
 
 /******************** Death and Legacy ********************/
