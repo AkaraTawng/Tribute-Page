@@ -664,6 +664,10 @@ h2{
     width: 35rem;
 }
 
+#lao-p1, #lao-p2 {
+    width: 80%;
+    margin-left: 4rem;
+}
 
 
 /******************** Death and Legacy ********************/
