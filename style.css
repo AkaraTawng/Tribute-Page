@@ -279,6 +279,10 @@ h2{
     margin-bottom: 3rem;
 }
 
+#londondiv {
+    text-align: center;
+}
+
 .styleclass #img1 /*London Harbor*/{
     border: solid #333 1.5px;
 }
@@ -523,7 +527,6 @@ h2{
 .footertext:active {
     color: crimson;
 }
-/* end footer */
 
 @media (min-width: 1920px) {
 
