@@ -420,14 +420,17 @@ h2{
 #lao img /*Mouhot Meeting in Village*/{
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
-    width: 700px;
+    width: 40rem;
     display: block;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 }
 
-#laop2 {
-    padding-bottom: 35px;
+#lao-p2 {
+    margin-bottom: 3rem;
+}
+
+#lao-p1 {
     margin-bottom: 3rem;
 }
 
@@ -656,6 +659,10 @@ h2{
     margin-top: 3rem;
 }
 
+/******************** Lao ********************/
+#lao img {
+    width: 35rem;
+}
 
 
 
