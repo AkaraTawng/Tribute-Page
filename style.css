@@ -54,6 +54,7 @@ h3, h4 {
     transition: .3 ease;
     transition-property: background-color;
     border: solid black 2px;
+    text-align: center;
 }
 
 /******************** Top Section ********************/
@@ -558,8 +559,8 @@ h2{
 #cambodia-p1 {
     margin-top: 3rem;
 }
-
 }
+
 @media (max-width: 770px) {
 
 } 
