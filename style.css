@@ -332,7 +332,7 @@ h2{
     margin-top: 40px; 
 }
 
-#cambodia img /*Cambodians Eating*/{
+#cambodia img {
     border: solid  #333 1.5px;
    box-shadow: #333 2px 2px 2px;
    width: 40rem;   
@@ -549,6 +549,12 @@ h2{
     height: 21rem;
     width: 19rem;
 }
+
+/******************** Cambodia ********************/
+#cambodia img {
+   width: 30rem;  
+}
+
 }
 @media (max-width: 770px) {
 
