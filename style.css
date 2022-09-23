@@ -679,7 +679,10 @@ h2{
     margin-bottom: 2rem;
 }
 
-
+.mouhot-grid-container {
+    grid-auto-rows: 15rem 15rem;
+    width: 90%;
+}
 } 
 
 @media (max-width: 480px) {
