@@ -202,7 +202,7 @@ h2{
 }
 
 .exp img {
-    height: 27rem;
+    height: 25rem;
     width: 25rem;
 }
 
@@ -529,11 +529,24 @@ h2{
 }
 
 @media (min-width: 1920px) {
-
+ /* okay but test again */
 }
 
 @media (max-width: 1200px) {
+
+    #map {
+        margin-left: -3rem;
+    }
+
+    #map img{
+        height: 20rem;
+        width: 19rem;
+    }
     
+    .exp img {
+        height: 20rem;
+        width: 19rem;
+    }
 } 
 
 @media (max-width: 770px) {
