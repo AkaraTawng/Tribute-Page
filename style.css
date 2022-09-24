@@ -951,6 +951,11 @@ h2{
     margin-left: 2.5rem;
 }
 
+.exp {
+    margin-bottom: -4rem;
+    margin-top: -2rem;
+}
+
 .exp img {
     height: 18rem;
     width:18rem;
