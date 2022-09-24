@@ -703,15 +703,19 @@ h2{
 
     .show {
         display: flex;
+        opacity: 1;
+        transform: translateY(-1rem);
     }
     
     .hide {
-        display: none !important;
+        transform: translateY(-50rem);
+        opacity: 0;
     }
 
     #in-nav-links {
         height: 35rem;
         flex-direction: column;
+        transition: all 0.5s ease;
     }
 
     #mobile-menu-btn {
@@ -730,13 +734,13 @@ h2{
         cursor: pointer;
     }
 
-    
     #mobile-menu-close:hover {
         filter: drop-shadow(10px 10px 5px black);
     }
     
     #mobile-menu-close:active {
         filter: none;
+        transform: scale(0.9);
     }
    
     #mobile-menu-btn:hover {
@@ -746,6 +750,7 @@ h2{
     
     #mobile-menu-btn:active {
         filter: none;
+        transform: scale(0.9) ;
         transition: all .05s linear;
     }
     
@@ -753,7 +758,6 @@ h2{
        width: 15rem;
        padding: 1rem 0;
     }
-
 } 
 
 @media (max-width: 400px) {
