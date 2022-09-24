@@ -877,6 +877,22 @@ h2{
     margin-bottom: 3rem;
 }
 
+.angkor-grid-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.gallery-item .image img {
+    height: 20rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+
+
+
 
 } 
 
