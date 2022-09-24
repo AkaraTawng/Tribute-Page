@@ -907,6 +907,15 @@ h2{
     margin-bottom: 2rem;
 } 
 
+.mouhot-grid-container {
+   display: flex;
+   flex-direction: column;
+}
+
+#mouhot-statue { 
+    object-position: 0px 0;
+}
+
 
 
 
