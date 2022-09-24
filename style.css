@@ -1021,6 +1021,13 @@ h2{
     margin-bottom: -.1rem;
 }
 
+/******************** Angkor ********************/
+.gallery-item .image img {
+    height: 18rem;
+    width: 18rem;
+    margin-left: 1rem;
+}
+
 
 
 
