@@ -20,7 +20,7 @@ h3, h4 {
     font-weight: 500;
     text-decoration: underline;
 }
-
+`
 /* all paragraphs */
 .styleclass p {
     font-family: 'Indie Flower', cursive;
@@ -697,6 +697,14 @@ h2{
 
 @media (max-width: 480px) {
 
+    .show {
+        display: block !important;
+    }
+    
+    .hide {
+        display: none !important;
+    }
+
     #mobile-menu-btn {
         display: block;
         width: 10rem;
@@ -721,10 +729,10 @@ h2{
     .link1 {
        
     }
-
+/* 
     #in-nav-links {
       display: none;
-    }
+    } */
 } 
 
 @media (max-width: 400px) {
