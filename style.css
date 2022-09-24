@@ -701,63 +701,76 @@ h2{
 
 @media (max-width: 480px) {
 
-    .show {
-        display: flex;
-        opacity: 1;
-        transform: translateY(-1rem);
-    }
-    
-    .hide {
-        transform: translateY(-50rem);
-        opacity: 0;
-    }
+/******************** Nav ********************/
 
-    #in-nav-links {
-        height: 35rem;
-        flex-direction: column;
-        transition: all 0.5s ease;
-    }
+.show {
+    display: flex;
+    opacity: 1;
+    transform: translateY(-1rem);
+}
 
-    #mobile-menu-btn {
-        display: block;
-        width: 10rem;
-        height: 10rem;
-        margin: auto;
-        margin-top: 3rem;
-        margin-bottom: -10rem;
-        filter: drop-shadow(5px 5px 5px rgb(117, 117, 117));
-        cursor: pointer;
-    }
+.hide {
+    transform: translateY(-50rem);
+    opacity: 0;
+}
 
-    #mobile-menu-close {
-        display: block;
-        cursor: pointer;
-    }
+#in-nav-links {
+    height: 35rem;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
 
-    #mobile-menu-close:hover {
-        filter: drop-shadow(10px 10px 5px black);
-    }
-    
-    #mobile-menu-close:active {
-        filter: none;
-        transform: scale(0.9);
-    }
-   
-    #mobile-menu-btn:hover {
-        filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
-        transition: all .2s ease-in;
-    }
-    
-    #mobile-menu-btn:active {
-        filter: none;
-        transform: scale(0.9) ;
-        transition: all .05s linear;
-    }
-    
-    .link1 {
-       width: 15rem;
-       padding: 1rem 0;
-    }
+#mobile-menu-btn {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: -10rem;
+    filter: drop-shadow(5px 5px 5px rgb(117, 117, 117));
+    cursor: pointer;
+}
+
+#mobile-menu-close {
+    display: block;
+    cursor: pointer;
+}
+
+#mobile-menu-close:hover {
+    filter: drop-shadow(10px 10px 5px black);
+}
+
+#mobile-menu-close:active {
+    filter: none;
+    transform: scale(0.9);
+}
+
+#mobile-menu-btn:hover {
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+    transition: all .2s ease-in;
+}
+
+#mobile-menu-btn:active {
+    filter: none;
+    transform: scale(0.9) ;
+    transition: all .05s linear;
+}
+
+.link1 {
+    width: 15rem;
+    padding: 1rem 0;
+}
+
+/******************* early life ********************/
+#map {
+    margin-left: 0;
+}
+
+#map img {
+    width: 20rem;
+    height: 20rem;
+}
+
 } 
 
 @media (max-width: 400px) {
