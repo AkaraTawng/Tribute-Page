@@ -1006,6 +1006,21 @@ h2{
     margin-bottom: -2.5rem;
 }
 
+/******************** Cambodia ********************/
+#cambodia h3{
+    margin-left: -2rem;
+}
+
+#cambodia img {
+    width: 18rem;
+    height: 18rem;
+}
+
+#cambodia-flex-container {
+    margin-top: -3rem;
+    margin-bottom: -.1rem;
+}
+
 
 
 
