@@ -40,6 +40,10 @@ h3, h4 {
     display: none;
 }
 
+#mobile-menu-close {
+    display: none;
+}
+
 #in-nav-links{
     background-image: url(img/navbasrelief.png);
     background-repeat: no-repeat;
@@ -719,6 +723,10 @@ h2{
         margin-bottom: -10rem;
         filter: drop-shadow(5px 5px 5px rgb(117, 117, 117));
         cursor: pointer;
+    }
+
+    #mobile-menu-close {
+        display: block;
     }
    
     #mobile-menu-btn:hover {
