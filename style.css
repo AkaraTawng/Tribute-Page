@@ -231,7 +231,7 @@ h2{
     margin-top: 6rem;
 } 
 
-.flex-container{
+.jersey-flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -787,6 +787,22 @@ h2{
     width:20rem;
     margin: auto;
 }
+
+.jersey-flex-container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 43rem;
+}
+
+#birdseye, #coastline {
+    margin: auto;
+    height: 20rem;
+    width:20rem;
+}
+
+
 
 } 
 
