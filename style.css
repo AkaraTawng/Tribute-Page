@@ -799,7 +799,56 @@ h2{
 #birdseye, #coastline {
     margin: auto;
     height: 20rem;
-    width:20rem;
+    width: 20rem;
+}
+
+/******************** Siam ********************/
+
+.styleclass #img1 {
+    height: 20rem;
+    width: 20rem;
+}
+
+#siam-p1 {
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#siam-p2 {
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bk-harbor-img-wrapper {
+    flex-direction: column;
+    height: 43rem;
+}
+
+.styleclass #img2, .styleclass #img3 {
+    margin: auto;
+    height: 20rem;
+    width: 20rem;
+}
+
+#siam-p3 {
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+.ayuthaya-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 66rem;
+    margin-bottom: -2rem;
+}
+
+.ayuthaya-flex-container .siam-temples-img {
+    margin: auto;
+    height: 20rem;
+    width: 20rem;
+    
 }
 
 
