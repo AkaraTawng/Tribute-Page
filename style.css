@@ -930,7 +930,16 @@ h2{
 }
 
 /******************* early life ********************/
+#top-section img {
+    width: 15rem;
+    height: 20rem;
+}
 
+#top-section h2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5rem;
+}
 } 
 
 /* ---------------------------------------------------------------------- */
