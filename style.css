@@ -803,7 +803,6 @@ h2{
 }
 
 /******************** Siam ********************/
-
 .styleclass #img1 {
     height: 20rem;
     width: 20rem;
@@ -848,10 +847,13 @@ h2{
     margin: auto;
     height: 20rem;
     width: 20rem;
-    
 }
 
-
+/******************** Cambodia ********************/
+#cambodia-p3, #cambodia-p2, #cambodia-p1 {
+    margin: auto;
+    margin-bottom: 3rem;
+}
 
 } 
 
