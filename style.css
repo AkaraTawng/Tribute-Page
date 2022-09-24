@@ -775,6 +775,19 @@ h2{
     margin-left: 3rem;
 }
 
+.exp {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65rem;
+    margin-bottom: -2rem;
+}
+
+.exp img {
+    height: 20rem;
+    width:20rem;
+    margin: auto;
+}
+
 } 
 
 @media (max-width: 400px) {
