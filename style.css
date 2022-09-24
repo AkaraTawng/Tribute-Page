@@ -870,7 +870,13 @@ h2{
     margin: auto;
 }
 
-`
+/******************** Angkor ********************/
+
+#angkor-p1, #angkor-p2, #angkor-p3, #angkor-p4 {
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
 
 } 
 
