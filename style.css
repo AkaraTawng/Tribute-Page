@@ -902,7 +902,10 @@ h2{
 }
 
 /******************** Death and Legacy ********************/
-
+#dl-p1, #dl-p2, #dl-p3, #dl-p4, #dl-p5 {
+    margin: auto;
+    margin-bottom: 2rem;
+} 
 
 
 
