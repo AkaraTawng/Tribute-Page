@@ -710,7 +710,7 @@ h2{
     }
 
     #in-nav-links {
-        height: 30rem;
+        height: 35rem;
         flex-direction: column;
     }
 
@@ -727,6 +727,16 @@ h2{
 
     #mobile-menu-close {
         display: block;
+        cursor: pointer;
+    }
+
+    
+    #mobile-menu-close:hover {
+        filter: drop-shadow(10px 10px 5px black);
+    }
+    
+    #mobile-menu-close:active {
+        filter: none;
     }
    
     #mobile-menu-btn:hover {
@@ -740,7 +750,8 @@ h2{
     }
     
     .link1 {
-       
+       width: 15rem;
+       padding: 1rem 0;
     }
 
 } 
