@@ -929,7 +929,7 @@ h2{
     height: 8rem;
 }
 
-/******************* early life ********************/
+/******************* Top Section ********************/
 #top-section img {
     width: 15rem;
     height: 20rem;
@@ -940,6 +940,30 @@ h2{
     margin: auto;
     margin-top: 2.5rem;
 }
+
+/******************* Top Section ********************/
+#map img {
+    width: 18rem;
+    height: 19rem;
+}
+
+#early-life-p1, #early-life-p2 {
+    margin-left: 2.5rem;
+}
+
+.exp img {
+    height: 18rem;
+    width:18rem;
+    margin: auto;
+}
+
+#birdseye, #coastline {
+    margin: auto;
+    height: 18rem;
+    width: 18rem;
+}
+
+
 } 
 
 /* ---------------------------------------------------------------------- */
