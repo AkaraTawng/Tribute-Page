@@ -968,6 +968,46 @@ h2{
     width: 18rem;
 }
 
+/******************** Siam ********************/
+#siam h3{
+    margin-left: -1.5rem;
+}
+
+.styleclass #img1 /*London Harbor*/{
+    height: 18rem;
+    width: 18rem;
+    margin-bottom: -1rem;
+}
+
+.styleclass #img2, .styleclass #img3 {
+    height: 18rem;
+    width: 18rem;
+}
+
+.styleclass #img2 {
+    margin-top: -.5rem;
+}
+
+.styleclass #img3 {
+    margin-bottom: -.5rem;
+}
+
+.bk-harbor-img-wrapper {
+  height: 38rem;
+}
+
+.ayuthaya-flex-container .siam-temples-img {
+    height: 18rem;
+    width: 18rem;
+}
+
+.ayuthaya-flex-container {
+    margin-top: -2.5rem;
+    margin-bottom: -2.5rem;
+}
+
+
+
 
 } 
 
