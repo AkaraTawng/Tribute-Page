@@ -312,6 +312,12 @@ h2{
     justify-content: space-around;
     margin-bottom: 3rem; 
 }
+
+.ayuthaya-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .siam-temples-img {
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
