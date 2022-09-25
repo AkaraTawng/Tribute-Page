@@ -201,29 +201,35 @@ h2{
     margin-left: 6rem;
 }
 
-.map-image {
+.map-image, .imagex1, .imagex2, .imagex3 {
     position: relative;
 }
 
-.map-image-overlay {
+.map-image-overlay, .imagex1-image-overlay, 
+.imagex2-image-overlay, 
+.imagex3-image-overlay {
     position: absolute;    
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%; /* different */
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 12%;
     color: white;
-    margin-left: 6rem;
     opacity: 0;
     transition: opacity .25s;
+} 
+
+.map-image-overlay {
+    width: 81%;
+    left: 6rem;
 }
 
-.map-image-overlay:hover {
-    opacity: 1;
+.map-image-overlay:hover, .imagex1-image-overlay:hover, .imagex2-image-overlay:hover, .imagex3-image-overlay:hover {
+    opacity: 1; /* same all */
 }
 
-.map-image-description {
+.map-image-description, .imagex1-image-description, .imagex2-image-description, .imagex3-image-description { /* same all */
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -232,7 +238,7 @@ h2{
     transition: transform .25s;
 }
 
-.map-image-overlay:hover .map-image-description{
+.map-image-overlay:hover .map-image-description, .imagex1-image-overlay:hover .imagex1-image-description, .imagex2-image-overlay:hover .imagex2-image-description, .imagex3-image-overlay:hover .imagex3-image-description{ /* same all */
     transform: translateY(0);
 }
 
@@ -254,114 +260,13 @@ h2{
 .exp #imagex1 {
     box-shadow: #333 2px 2px 2px;
 }
-.imagex1 {
-    position: relative;
-}
-
-.imagex1-image-overlay {
-    position: absolute;    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 12%;
-    color: white;
-    opacity: 0;
-    transition: opacity .25s;
-}
-
-.imagex1-image-overlay:hover {
-    opacity: 1;
-}
-
-.imagex1-image-description {
-    font-size: 2rem !important;
-    font-weight: bold;
-    padding: 0 10%;
-    margin-top: 40%;
-    transform: translateY(20px);
-    transition: transform .25s;
-}
-
-.imagex1-image-overlay:hover .imagex1-image-description{
-    transform: translateY(0);
-}
 
 .exp #imagex2 {
     box-shadow: #333 2px 2px 2px;
 }
 
-.imagex2 {
-    position: relative;
-}
-
-.imagex2-image-overlay {
-    position: absolute;    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 12%;
-    color: white;
-    opacity: 0;
-    transition: opacity .25s;
-}
-
-.imagex2-image-overlay:hover {
-    opacity: 1;
-}
-
-.imagex2-image-description {
-    font-size: 2rem !important;
-    font-weight: bold;
-    padding: 0 10%;
-    margin-top: 40%;
-    transform: translateY(20px);
-    transition: transform .25s;
-}
-
-.imagex2-image-overlay:hover .imagex2-image-description{
-    transform: translateY(0);
-}
-
 .exp #imagex3 {
     box-shadow: #333 2px 2px 2px;
-}
-
-.imagex3 {
-    position: relative;
-}
-
-.imagex3-image-overlay {
-    position: absolute;    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 12%;
-    color: white;
-    opacity: 0;
-    transition: opacity .25s;
-}
-
-.imagex3-image-overlay:hover {
-    opacity: 1;
-}
-
-.imagex3-image-description {
-    font-size: 2rem !important;
-    font-weight: bold;
-    padding: 0 10%;
-    margin-top: 40%;
-    transform: translateY(20px);
-    transition: transform .25s;
-}
-
-.imagex3-image-overlay:hover .imagex3-image-description{
-    transform: translateY(0);
 }
 
 #jersey {
@@ -674,7 +579,9 @@ h2{
         margin-left: 7rem;
     }
     .map-image-overlay {
-        margin-left: 7rem;
+        /* opacity: 1; */
+        margin-left: 1rem;
+        width: 78%;
     }
 }
 
@@ -683,20 +590,6 @@ h2{
 @media (max-width: 1200px) {
 
 /******************* early life ********************/
-    /* #map {
-        margin-left: -3rem;
-    }
-
-    #map img{
-        height: 20rem;
-        width: 19rem;
-    }
-    
-    .exp img {
-        height: 20rem;
-        width: 19rem;
-    } */
-
     #map {
         margin-left: -3rem;
     }
@@ -714,7 +607,7 @@ h2{
         height: 76%;
         border-radius: 15%;
         color: white;
-        margin-left: 4rem;
+        margin-left: -2rem;
     }
     
     .exp img {
