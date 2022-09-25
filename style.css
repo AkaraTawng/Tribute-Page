@@ -260,10 +260,11 @@ h2{
 }
 
 #early-life-p2 {
-    margin-top: 9rem;
+    margin: 0 auto; 
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
     line-height: 2.5rem;
     width:70%;
-    margin: 0 auto; 
 }
 
 /******************** Siam ********************/
