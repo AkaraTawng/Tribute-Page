@@ -198,6 +198,42 @@ h2{
     box-shadow: #333 2px 2px 2px;
     border: solid #333 1.5px;
     max-width: 100%;
+    margin-left: 6rem;
+}
+
+.map-image {
+    position: relative;
+}
+
+.map-image-overlay {
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 81%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12%;
+    color: white;
+    margin-left: 6rem;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.map-image-overlay:hover {
+    opacity: 1;
+}
+
+.map-image-description {
+    font-size: 2rem !important;
+    font-weight: bold;
+    padding: 0 10%;
+    margin-top: 40%;
+    transform: translateY(20px);
+    transition: transform .25s;
+}
+
+.map-image-overlay:hover .map-image-description{
+    transform: translateY(0);
 }
 
 #greek {
@@ -218,13 +254,114 @@ h2{
 .exp #imagex1 {
     box-shadow: #333 2px 2px 2px;
 }
+.imagex1 {
+    position: relative;
+}
+
+.imagex1-image-overlay {
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12%;
+    color: white;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.imagex1-image-overlay:hover {
+    opacity: 1;
+}
+
+.imagex1-image-description {
+    font-size: 2rem !important;
+    font-weight: bold;
+    padding: 0 10%;
+    margin-top: 40%;
+    transform: translateY(20px);
+    transition: transform .25s;
+}
+
+.imagex1-image-overlay:hover .imagex1-image-description{
+    transform: translateY(0);
+}
 
 .exp #imagex2 {
     box-shadow: #333 2px 2px 2px;
 }
 
+.imagex2 {
+    position: relative;
+}
+
+.imagex2-image-overlay {
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12%;
+    color: white;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.imagex2-image-overlay:hover {
+    opacity: 1;
+}
+
+.imagex2-image-description {
+    font-size: 2rem !important;
+    font-weight: bold;
+    padding: 0 10%;
+    margin-top: 40%;
+    transform: translateY(20px);
+    transition: transform .25s;
+}
+
+.imagex2-image-overlay:hover .imagex2-image-description{
+    transform: translateY(0);
+}
+
 .exp #imagex3 {
     box-shadow: #333 2px 2px 2px;
+}
+
+.imagex3 {
+    position: relative;
+}
+
+.imagex3-image-overlay {
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12%;
+    color: white;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.imagex3-image-overlay:hover {
+    opacity: 1;
+}
+
+.imagex3-image-description {
+    font-size: 2rem !important;
+    font-weight: bold;
+    padding: 0 10%;
+    margin-top: 40%;
+    transform: translateY(20px);
+    transition: transform .25s;
+}
+
+.imagex3-image-overlay:hover .imagex3-image-description{
+    transform: translateY(0);
 }
 
 #jersey {
