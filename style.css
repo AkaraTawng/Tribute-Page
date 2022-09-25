@@ -722,8 +722,6 @@ h2{
         width: 19rem;
     }
 
-
-
 /******************** Siam ********************/
 .styleclass #img2 /*Painting Bangkok Harbor*/{
     width: 29rem;
@@ -762,8 +760,24 @@ h2{
 }
 
 #map img{
+    margin-top: 1rem;
     width: 25rem;
     height: 25rem;
+    margin-left: 9rem;
+}
+
+.map-image-overlay {
+    position: absolute;    
+    top: 4%;
+    left: 7%;
+    width: 59%;
+    height: 96%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12%;
+    color: white;
+    margin-left: 6rem;
+    opacity: 0;
+    transition: opacity .25s;
 }
 
 #early-life-p1 {
@@ -774,6 +788,20 @@ h2{
   .exp img {
     height: 12rem;
     width:12rem;
+}
+
+.imagex1-image-overlay, .imagex2-image-overlay, .imagex3-image-overlay {
+    border-radius: 26%;
+}
+
+.imagex1-image-overlay:hover .imagex1-image-description, 
+.imagex2-image-overlay:hover .imagex2-image-description, 
+.imagex3-image-overlay:hover .imagex3-image-description {
+    transform: translateY(-10px);
+}
+
+.imagex1-image-description, .imagex2-image-description, .imagex3-image-description  {
+    font-size: 1.2rem !important;
 }
 
 #early-life-p2 {
