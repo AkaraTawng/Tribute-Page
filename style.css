@@ -339,6 +339,11 @@ h2{
     margin-bottom: 3rem;
 }
 
+#cambodia-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 #cambodia img {
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
