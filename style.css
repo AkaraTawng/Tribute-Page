@@ -965,7 +965,7 @@ h2{
     height: 86.5%;
     width: 74%;
     top: 12.6%;
-    left: 13%;
+    left: 134
 }
 
 .coastline-image-overlay:hover .coastline-image-description {
@@ -1157,7 +1157,9 @@ h2{
     margin-left: 3rem;
 }
 
-.imagex1-image-overlay, .imagex2-image-overlay, .imagex3-image-overlay {
+.imagex1-image-overlay,
+.imagex2-image-overlay,
+.imagex3-image-overlay {
     border-radius: 18%;
     width: 85%;
     opacity: 0;
@@ -1170,14 +1172,38 @@ h2{
     transform: translateY(120px);
 }
 
-.imagex1-image-description, .imagex2-image-description, .imagex3-image-description  {
+.imagex1-image-description,
+.imagex2-image-description,
+.imagex3-image-description  {
     font-size: 1.2rem !important;
     transform: translateY(150px);
 }
 
 
+.birdseye-image-overlay, 
+.coastline-image-overlay {
+    height: 85%;
+    top: 14%;
+    left: 11%;
+    width: 80%;
+    border-radius: 18%;
+}
 
+.birdseye-image-description {
+    transform: translateY(200px);
+}
 
+.coastline-image-description {
+    transform: translateY(200px);
+}
+
+.coastline-image-overlay:hover .coastline-image-description {
+    transform: translateY(115px);
+}
+
+.birdseye-image-overlay:hover .birdseye-image-description {
+    transform: translateY(90px);
+}
 
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
@@ -1195,7 +1221,7 @@ h2{
 }
 
 #birdseye, #coastline {
-    margin: auto;
+    margin-left: 2.5rem;
     height: 18rem;
     width: 18rem;
 }
