@@ -974,6 +974,20 @@ h2{
 #map img {
     width: 20rem;
     height: 20rem;
+    margin-left: 3.5rem;
+}
+
+.map-image-overlay {
+    opacity: 0;
+    top: 5%;
+    width: 75%;
+    height: 95%;
+    margin-left: 1.6rem;
+    border-radius: 15%;
+}
+
+.map-image-overlay:hover .map-image-description{
+    transform: translateY(-13px);
 }
 
 #early-life-p1, #early-life-p2 {
@@ -990,8 +1004,25 @@ h2{
 .exp img {
     height: 20rem;
     width:20rem;
-    margin: auto;
+    margin-left: 3rem;
 }
+
+.imagex1-image-overlay, .imagex2-image-overlay, .imagex3-image-overlay {
+    width: 78%;
+    left: 11%;
+    border-radius: 16%;
+}
+
+.imagex1-image-overlay:hover .imagex1-image-description, 
+.imagex2-image-overlay:hover .imagex2-image-description, 
+.imagex3-image-overlay:hover .imagex3-image-description {
+    transform: translateY(0);
+}
+
+.imagex1-image-description, .imagex2-image-description, .imagex3-image-description  {
+    font-size: 1.5rem !important;
+}
+
 
 .jersey-flex-container {
     margin-top: 2rem;
