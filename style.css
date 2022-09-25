@@ -1327,4 +1327,27 @@ h2{
 .gallery-item .image img {
     margin-left: 0rem;
 }
+
+#map img {
+    margin-left: 1rem;
+}
+
+.map-image-overlay {
+    top: 5%;
+    width: 89%;
+    height: 95%;
+    margin-left: -.4rem;
+    border-radius: 15%;
+    /* opacity: 1; */
+}
+
+.exp img {
+    margin-left: .5rem;
+}
+
+.imagex1-image-overlay, .imagex2-image-overlay, .imagex3-image-overlay {
+    width: 93%;
+    left: 3%;
+}
+
 } 
