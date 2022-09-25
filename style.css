@@ -209,7 +209,7 @@ h2{
     position: absolute;    
     top: 0;
     left: 0;
-    width: 81%;
+    width: auto;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 12%;
@@ -670,7 +670,12 @@ h2{
 }
 
 @media (min-width: 1920px) {
- /* okay but test again */
+    #map img {
+        margin-left: 7rem;
+    }
+    .map-image-overlay {
+        margin-left: 7rem;
+    }
 }
 
 /* ---------------------------------------------------------------------- */
@@ -678,7 +683,7 @@ h2{
 @media (max-width: 1200px) {
 
 /******************* early life ********************/
-    #map {
+    /* #map {
         margin-left: -3rem;
     }
 
@@ -690,7 +695,34 @@ h2{
     .exp img {
         height: 20rem;
         width: 19rem;
+    } */
+
+    #map {
+        margin-left: -3rem;
     }
+
+    #map img{
+        height: 20rem;
+        width: 19rem;
+        margin-left: 4rem;
+        margin-top: 5rem;
+    }
+
+    .map-image-overlay {
+        top: 19%;
+        width: 83%;
+        height: 76%;
+        border-radius: 15%;
+        color: white;
+        margin-left: 4rem;
+    }
+    
+    .exp img {
+        height: 20rem;
+        width: 19rem;
+    }
+
+
 
 /******************** Siam ********************/
 .styleclass #img2 /*Painting Bangkok Harbor*/{
