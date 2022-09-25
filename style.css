@@ -238,7 +238,7 @@ h2{
 .map-image-overlay:hover, .imagex1-image-overlay:hover, .imagex2-image-overlay:hover, .imagex3-image-overlay:hover, 
 .birdseye-image-overlay:hover,
 .coastline-image-overlay:hover {
-    opacity: 1; /* same all */
+    opacity: 1;
 }
 
 .map-image-description, .imagex1-image-description, .imagex2-image-description, .imagex3-image-description,
@@ -712,7 +712,8 @@ h2{
 
 .imagex1-image-overlay:hover .imagex1-image-description, 
 .imagex2-image-overlay:hover .imagex2-image-description, 
-.imagex3-image-overlay:hover .imagex3-image-description {
+.imagex3-image-overlay:hover .imagex3-image-description,
+.coastline-image-overlay:hover .coastline-image-description {
     transform: translateY(-10px);
 }
 
@@ -727,6 +728,14 @@ h2{
 #birdseye, #coastline {
     width: 20rem;
     height: 18rem;
+}
+
+.birdseye-image-overlay, 
+.coastline-image-overlay {
+    height: 85%;
+    width: 100%;
+    top: 14%;
+    border-radius: 16%;
 }
 
 /******************** Siam ********************/
