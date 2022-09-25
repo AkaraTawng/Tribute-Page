@@ -1181,7 +1181,51 @@ h2{
 #map img {
     width: 18rem;
     height: 19rem;
+    margin-left: 2.5rem;
 }
+
+.map-image-overlay {
+    top: 5%;
+    width: 80.4%;
+    height: 95%;
+    margin-left: 0.9rem;
+    border-radius: 15%;
+}
+
+.map-image-description {
+    transform: translateY(160px);
+    font-size: 1.2rem !important;
+}
+
+.map-image-overlay:hover .map-image-description{
+    transform: translateY(120px);
+}
+
+#early-life-p1, #early-life-p2 {
+    margin-left: 3rem;
+}
+
+.imagex1-image-overlay, .imagex2-image-overlay, .imagex3-image-overlay {
+    border-radius: 18%;
+    width: 85%;
+    opacity: 0;
+    left: 8%;
+}
+
+.imagex1-image-overlay:hover .imagex1-image-description, 
+.imagex2-image-overlay:hover .imagex2-image-description, 
+.imagex3-image-overlay:hover .imagex3-image-description {
+    transform: translateY(120px);
+}
+
+.imagex1-image-description, .imagex2-image-description, .imagex3-image-description  {
+    font-size: 1.2rem !important;
+    transform: translateY(150px);
+}
+
+
+
+
 
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
@@ -1195,7 +1239,7 @@ h2{
 .exp img {
     height: 18rem;
     width:18rem;
-    margin: auto;
+    margin-left: 1.7rem;
 }
 
 #birdseye, #coastline {
