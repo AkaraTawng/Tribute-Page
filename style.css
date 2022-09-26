@@ -1297,6 +1297,29 @@ h2{
     transform: translateY(125px);
 }
 
+.wat-arun-drawing-image-overlay,
+.wat-arun-photo-image-overlay {
+    width: 80%;
+    height: 102%;
+    left: 10%;
+    top: -8px;
+}
+
+.wat-arun-photo-image-overlay {
+    top: 0px;
+}
+
+.wat-arun-drawing-image-description,
+.wat-arun-photo-image-description {
+    transform: translateY(150px);
+}
+
+
+.wat-arun-drawing-image-overlay:hover .wat-arun-drawing-image-description,
+.wat-arun-photo-image-overlay:hover .wat-arun-photo-image-description {
+    transform: translateY(100px);
+}
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
