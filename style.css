@@ -1316,7 +1316,6 @@ h2{
     height: 95%;
     margin-left: -.4rem;
     border-radius: 15%;
-    /* opacity: 1; */
 }
 
 .exp img {
@@ -1326,6 +1325,23 @@ h2{
 .imagex1-image-overlay, .imagex2-image-overlay, .imagex3-image-overlay {
     width: 93%;
     left: 3%;
+}
+
+#birdseye, #coastline {
+    margin-left: 1.2rem;
+}
+
+.birdseye-image-overlay, 
+.coastline-image-overlay {
+    height: 85%;
+    top: 14%;
+    left: 5.9%;
+    width: 89%;
+    border-radius: 18%;
+}
+
+.coastline-image-overlay:hover .coastline-image-description {
+    transform: translateY(125px);
 }
 
 } 
