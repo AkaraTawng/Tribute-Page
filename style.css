@@ -284,7 +284,7 @@ h2{
 }
 
 .london-harbor-image-overlay:hover .london-harbor-image-description {
-    transform: translateY(-60`px);
+    transform: translateY(-60px);
 }
 
  
@@ -630,6 +630,11 @@ h2{
         /* opacity: 1; */
         margin-left: 1rem;
         width: 78%;
+    }
+
+    .london-harbor-image-overlay {
+        width: 37.1%;
+        left: 31.4%;
     }
 }
 
