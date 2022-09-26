@@ -1257,6 +1257,21 @@ h2{
     transform: translateY(90px);
 }
 
+.london-harbor-image-overlay {
+    width: 80.1%;
+    border-radius: 49px;
+    height: 104.2%;
+    left: 10%;
+}
+
+.london-harbor-image-description {
+    transform: translateY(170px);
+}
+
+.london-harbor-image-overlay:hover .london-harbor-image-description {
+    transform: translateY(125px);
+}
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
