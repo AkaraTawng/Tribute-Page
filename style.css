@@ -202,7 +202,7 @@ h2{
 }
 
 .map-image, .imagex1, .imagex2, .imagex3, .birdseye-image, .coastline-image,
-.london-harbor-image {
+.london-harbor-image, .wat-arun-drawing-image, .wat-arun-photo-image {
     position: relative;
 }
 
@@ -212,7 +212,9 @@ h2{
 .imagex3-image-overlay,
 .birdseye-image-overlay,
 .coastline-image-overlay,
-.london-harbor-image-overlay {
+.london-harbor-image-overlay,
+.wat-arun-drawing-image-overlay,
+.wat-arun-photo-image-overlay {
     position: absolute;    
     top: 0;
     left: 0;
@@ -245,13 +247,21 @@ h2{
     border-radius: 51px;
 }
 
+.wat-arun-drawing-image-overlay,
+.wat-arun-photo-image-overlay {
+    border-radius: 50px;
+    height: 99.2%;
+}
+
 .map-image-overlay:hover,
 .imagex1-image-overlay:hover,
 .imagex2-image-overlay:hover,
 .imagex3-image-overlay:hover, 
 .birdseye-image-overlay:hover,
 .coastline-image-overlay:hover,
-.london-harbor-image-overlay:hover {
+.london-harbor-image-overlay:hover,
+.wat-arun-drawing-image-overlay:hover,
+.wat-arun-photo-image-overlay:hover {
     opacity: 1;
 }
 
@@ -261,7 +271,9 @@ h2{
 .imagex3-image-description,
 .birdseye-image-description,
 .coastline-image-description,
-.london-harbor-image-description { 
+.london-harbor-image-description,
+.wat-arun-drawing-image-description,
+.wat-arun-photo-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -287,8 +299,11 @@ h2{
     transform: translateY(-60px);
 }
 
+.wat-arun-drawing-image-overlay:hover .wat-arun-drawing-image-description,
+.wat-arun-photo-image-overlay:hover .wat-arun-photo-image-description {
+    transform: translateY(-20px);
+}
  
-
 #greek {
     margin-top: 3rem;
 }
