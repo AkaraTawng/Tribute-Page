@@ -994,7 +994,8 @@ h2{
 .imagex2-image-description, 
 .imagex3-image-description,
 .birdseye-image-description,
-.coastline-image-description {
+.coastline-image-description,
+.london-harbor-image-description {
     font-size: 1.5rem !important;
 }
 
@@ -1003,7 +1004,7 @@ h2{
     height: 86.5%;
     width: 74%;
     top: 12.6%;
-    left: 134
+    left: 13%;
 }
 
 .coastline-image-overlay:hover .coastline-image-description {
@@ -1012,6 +1013,19 @@ h2{
 
 .birdseye-image-overlay:hover .birdseye-image-description {
     transform: translateY(-5px);
+}
+
+.london-harbor-image-overlay {
+    width: 74%;
+    left: 13%;
+}
+
+.london-harbor-image-description {
+    transform: translateY(40px);
+}
+
+.london-harbor-image-overlay:hover .london-harbor-image-description {
+    transform: translateY(10px);
 }
 
 .jersey-flex-container {
