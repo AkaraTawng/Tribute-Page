@@ -1047,6 +1047,12 @@ h2{
     transform: translateY(10px);
 }
 
+.wat-arun-drawing-image-overlay,
+.wat-arun-photo-image-overlay {
+    width: 74.1%;
+    left: 13%;
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -1081,10 +1087,10 @@ h2{
 .bk-harbor-img-wrapper {
     flex-direction: column;
     height: 43rem;
+    text-align: center;
 }
 
 .styleclass #img2, .styleclass #img3 {
-    margin: auto;
     height: 20rem;
     width: 20rem;
 }
