@@ -1314,7 +1314,6 @@ h2{
     transform: translateY(150px);
 }
 
-
 .wat-arun-drawing-image-overlay:hover .wat-arun-drawing-image-description,
 .wat-arun-photo-image-overlay:hover .wat-arun-photo-image-description {
     transform: translateY(100px);
@@ -1463,6 +1462,12 @@ h2{
     /* opacity: 1; */
     width: 89.2%;
     left: 5.3%;
+}
+
+.wat-arun-drawing-image-overlay,
+.wat-arun-photo-image-overlay {
+    width: 90%;
+    left: 5%;
 }
 
 
