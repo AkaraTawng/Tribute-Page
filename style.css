@@ -767,7 +767,11 @@ h2{
     transform: translateY(-10px);
 }
 
-.imagex1-image-description, .imagex2-image-description, .imagex3-image-description  {
+.imagex1-image-description,
+.imagex2-image-description,
+.imagex3-image-description, 
+.wat-arun-drawing-image-description,
+.wat-arun-photo-image-description {
     font-size: 1.2rem !important;
 }
 
