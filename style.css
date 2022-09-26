@@ -1411,4 +1411,9 @@ h2{
     transform: translateY(125px);
 }
 
+.london-harbor-image-overlay {
+    /* opacity: 1; */
+    width: 89.2%;
+    left: 5.3%;
+}
 } 
