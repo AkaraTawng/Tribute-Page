@@ -201,15 +201,18 @@ h2{
     margin-left: 6rem;
 }
 
-.map-image, .imagex1, .imagex2, .imagex3, .birdseye-image, .coastline-image {
+.map-image, .imagex1, .imagex2, .imagex3, .birdseye-image, .coastline-image,
+.london-harbor-image {
     position: relative;
 }
 
-.map-image-overlay, .imagex1-image-overlay, 
+.map-image-overlay, 
+.imagex1-image-overlay, 
 .imagex2-image-overlay, 
 .imagex3-image-overlay,
 .birdseye-image-overlay,
-.coastline-image-overlay {
+.coastline-image-overlay,
+.london-harbor-image-overlay {
     position: absolute;    
     top: 0;
     left: 0;
@@ -235,12 +238,20 @@ h2{
     left: 6rem;
 }
 
+.london-harbor-image-overlay {
+    height: 99%;
+    width: 46.4%;
+    left: 26.8%;
+    border-radius: 51px;
+}
+
 .map-image-overlay:hover,
 .imagex1-image-overlay:hover,
 .imagex2-image-overlay:hover,
 .imagex3-image-overlay:hover, 
 .birdseye-image-overlay:hover,
-.coastline-image-overlay:hover {
+.coastline-image-overlay:hover,
+.london-harbor-image-overlay:hover {
     opacity: 1;
 }
 
@@ -249,7 +260,8 @@ h2{
 .imagex2-image-description,
 .imagex3-image-description,
 .birdseye-image-description,
-.coastline-image-description { 
+.coastline-image-description,
+.london-harbor-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -261,7 +273,8 @@ h2{
 .map-image-overlay:hover .map-image-description, 
 .imagex1-image-overlay:hover .imagex1-image-description,
 .imagex2-image-overlay:hover .imagex2-image-description,
-.imagex3-image-overlay:hover .imagex3-image-description {
+.imagex3-image-overlay:hover .imagex3-image-description,
+.london-harbor-image-overlay:hover .london-harbor-image-description {
     transform: translateY(0);
 }
 
@@ -269,6 +282,12 @@ h2{
 .coastline-image-overlay:hover .coastline-image-description {
     transform: translateY(-40px);
 }
+
+.london-harbor-image-overlay:hover .london-harbor-image-description {
+    transform: translateY(-60`px);
+}
+
+ 
 
 #greek {
     margin-top: 3rem;
@@ -358,7 +377,7 @@ h2{
     margin-bottom: 3rem;
 }
 
-#londondiv {
+.london-harbor-image {
     text-align: center;
 }
 
