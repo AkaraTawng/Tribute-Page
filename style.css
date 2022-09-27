@@ -787,6 +787,10 @@ h2{
     transform: translateY(-20px);
 }
 
+.girl-dancers-image-overlay:hover .girl-dancers-image-description {
+    transform: translateY(-30px);
+}
+
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
