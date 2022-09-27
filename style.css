@@ -322,7 +322,7 @@ h2{
 .wat-arun-photo-image-overlay:hover .wat-arun-photo-image-description {
     transform: translateY(-20px);
 }
-`
+
 .ayuthaya-buddha-image-overlay:hover .ayuthaya-buddha-image-description,
 .ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description,  
 .ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
@@ -727,6 +727,19 @@ h2{
 .styleclass .siam-temples-img {
     height: 21rem;
     width: 19rem;
+}
+
+
+.ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-description, 
+.ayuthaya-birdseye-temple-complex-description { 
+    transform: translateY(10px);
+}
+
+.ayuthaya-buddha-image-overlay:hover .ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description,  
+.ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(-15px);
 }
 
 /******************** Cambodia ********************/
