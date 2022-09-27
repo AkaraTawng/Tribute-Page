@@ -1633,4 +1633,10 @@ h2{
     width: 89.3%;
     left: 5.2%;
 }
+
+.cambodians-eating-image-overlay,
+.rice-farm-image-overlay {
+    width: 90%;
+    left: 5%;
+}
 } 
