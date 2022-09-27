@@ -206,7 +206,9 @@ h2{
 .wat-arun-photo-image,
 .ayuthaya-buddha-image,
 .ayuthaya-closeup-image, 
-.ayuthaya-birdseye-temple-complex {
+.ayuthaya-birdseye-temple-complex,
+.cambodians-eating-image,
+.rice-farm-image {
     position: relative;
 }
 
@@ -221,7 +223,9 @@ h2{
 .wat-arun-photo-image-overlay,
 .ayuthaya-buddha-image-overlay,
 .ayuthaya-closeup-image-overlay, 
-.ayuthaya-birdseye-temple-complex-overlay {
+.ayuthaya-birdseye-temple-complex-overlay,
+.cambodians-eating-image-overlay,
+.rice-farm-image-overlay {
     position: absolute;    
     top: 0;
     left: 0;
@@ -260,6 +264,12 @@ h2{
     height: 99.2%;
 }
 
+.cambodians-eating-image-overlay,
+.rice-farm-image-overlay {
+    height: 99.3%;
+    border-radius: 50px;
+}
+
 .map-image-overlay:hover,
 .imagex1-image-overlay:hover,
 .imagex2-image-overlay:hover,
@@ -271,7 +281,9 @@ h2{
 .wat-arun-photo-image-overlay:hover,
 .ayuthaya-buddha-image-overlay:hover,
 .ayuthaya-closeup-image-overlay:hover, 
-.ayuthaya-birdseye-temple-complex-overlay:hover {
+.ayuthaya-birdseye-temple-complex-overlay:hover,
+.cambodians-eating-image-overlay:hover,
+.rice-farm-image-overlay:hover  {
     opacity: 1;
 }
 
@@ -286,7 +298,10 @@ h2{
 .wat-arun-photo-image-description,
 .ayuthaya-buddha-image-description,
 .ayuthaya-closeup-image-description, 
-.ayuthaya-birdseye-temple-complex-description { 
+.ayuthaya-birdseye-temple-complex-description,
+.cambodians-eating-image-description,
+.rice-farm-image-description 
+ { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -327,6 +342,11 @@ h2{
 .ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description,  
 .ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
     transform: translateY(40px);
+}
+
+.cambodians-eating-image-overlay:hover .cambodians-eating-image-description,
+.rice-farm-image-overlay:hover  .rice-farm-image-description {
+    transform: translateY(-80px);
 }
  
 #greek {
@@ -485,6 +505,7 @@ h2{
     border: solid  #333 1.5px;
     box-shadow: #333 2px 2px 2px;
     width: 40rem;   
+    height: 26rem;
 }
 
 .angkor-grid-container {
