@@ -1692,4 +1692,17 @@ h2{
     width: 90%;
     left: 5%;
 }
+
+.girl-dancers-image-overlay {
+    width: 99%;
+    left: 0;
+}
+
+.girl-dancers-image-description {
+    transform: translateY(120px);
+}
+
+.girl-dancers-image-overlay:hover .girl-dancers-image-description {
+    transform: translateY(100px);
+}
 } 
