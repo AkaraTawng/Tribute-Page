@@ -807,6 +807,10 @@ h2{
     transform: translateY(-30px);
 }
 
+.prayers-image-overlay:hover .prayers-image-description {
+    transform: translateY(-20px);
+}
+
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
