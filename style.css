@@ -210,7 +210,8 @@ h2{
 .cambodians-eating-image,
 .rice-farm-image,
 .girl-dancers-image,
-.prayers-image {
+.prayers-image,
+.angkor-photographer-image {
     position: relative;
 }
 
@@ -219,6 +220,10 @@ h2{
 }
 
 .prayers-image {
+    height: 100%;
+}
+
+.angkor-photographer-image {
     height: 100%;
 }
 
@@ -237,7 +242,8 @@ h2{
 .cambodians-eating-image-overlay,
 .rice-farm-image-overlay,
 .girl-dancers-image-overlay,
-.prayers-image-overlay {
+.prayers-image-overlay,
+.angkor-photographer-image-overlay  {
     position: absolute;    
     top: 0;
     left: 0;
@@ -286,6 +292,10 @@ h2{
     border-radius: 50px;
 }
 
+.angkor-photographer-image-overlay {
+    border-radius: 50px;
+}
+
 .map-image-overlay:hover,
 .imagex1-image-overlay:hover,
 .imagex2-image-overlay:hover,
@@ -301,7 +311,8 @@ h2{
 .cambodians-eating-image-overlay:hover,
 .rice-farm-image-overlay:hover,
 .girl-dancers-image-overlay:hover,
-.prayers-image-overlay:hover  {
+.prayers-image-overlay:hover,
+.angkor-photographer-image-overlay:hoveR  {
     opacity: 1;
 }
 
@@ -319,8 +330,9 @@ h2{
 .ayuthaya-birdseye-temple-complex-description,
 .cambodians-eating-image-description,
 .rice-farm-image-description,
-.girl-dancers-image-description,
-.prayers-image-description { 
+.girl-dancers-image-description, 
+.prayers-image-description,
+.angkor-photographer-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -333,6 +345,10 @@ h2{
 .ayuthaya-closeup-image-description, 
 .ayuthaya-birdseye-temple-complex-description { 
     transform: translateY(70px);
+}
+
+.angkor-photographer-image-description {
+    transform: translateY(100px);
 }
 
 .map-image-overlay:hover .map-image-description, 
@@ -378,6 +394,10 @@ h2{
 
 .girl-dancers-image-overlay:hover .girl-dancers-image-description {
     transform: translateY(-80px);
+}
+
+.angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
+    transform: translateY(75px);
 }
  
 #greek {
