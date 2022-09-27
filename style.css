@@ -1279,6 +1279,20 @@ h2{
     transform: translateY(-15px);
 }
 
+.angkor-photographer-image-overlay {
+    width: 82.3%;
+    height: 94%;
+    left: 8%;
+}
+
+.angkor-photographer-image-description {
+    padding: 0 15%;
+}
+
+.angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
+    transform: translateY(0);
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
