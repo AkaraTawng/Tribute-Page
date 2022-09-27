@@ -1111,6 +1111,27 @@ h2{
     left: 13%;
 }
 
+.ayuthaya-buddha-image-overlay,
+.ayuthaya-closeup-image-overlay, 
+.ayuthaya-birdseye-temple-complex-overlay {
+    height: 99%;
+    width: 74.1%;
+    left: 13%;
+    border-radius: 50px;
+}
+
+.ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-description, 
+.ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(70px);
+}
+
+.ayuthaya-buddha-image-overlay:hover .ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description,
+.ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(0px);
+} 
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -1164,6 +1185,7 @@ h2{
     flex-direction: column;
     height: 66rem;
     margin-bottom: -2rem;
+    text-align: center;
 }
 
 .ayuthaya-flex-container .siam-temples-img {
