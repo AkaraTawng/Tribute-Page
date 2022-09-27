@@ -1570,5 +1570,11 @@ h2{
     left: 5%;
 }
 
-
+.ayuthaya-buddha-image-overlay,
+.ayuthaya-closeup-image-overlay, 
+.ayuthaya-birdseye-temple-complex-overlay {
+    height: 99%;
+    width: 89.3%;
+    left: 5.2%;
+}
 } 
