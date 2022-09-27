@@ -1160,6 +1160,17 @@ h2{
     transform: translateY(0px);
 } 
 
+.cambodians-eating-image-overlay,
+.rice-farm-image-overlay {
+    width: 74.1%;
+    left: 13%;
+}
+
+.cambodians-eating-image-overlay:hover .cambodians-eating-image-description,
+.rice-farm-image-overlay:hover  .rice-farm-image-description {
+    transform: translateY(0);
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -1230,6 +1241,7 @@ h2{
 
 #cambodia-flex-container {
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 2rem;
