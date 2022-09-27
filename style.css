@@ -763,6 +763,11 @@ h2{
     transform: translateY(-15px);
 }
 
+.cambodians-eating-image-overlay:hover .cambodians-eating-image-description,
+.rice-farm-image-overlay:hover  .rice-farm-image-description {
+    transform: translateY(-20px);
+}
+
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
