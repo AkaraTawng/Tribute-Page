@@ -863,7 +863,8 @@ h2{
 .ayuthaya-closeup-image-description, 
 .ayuthaya-birdseye-temple-complex-description,
 .cambodians-eating-image-description,
-.rice-farm-image-description {
+.rice-farm-image-description,
+.girl-dancers-image-description {
     font-size: 1.2rem !important;
 }
 
@@ -909,6 +910,10 @@ h2{
 .ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
     transform: translateY(-45px);
 } 
+
+.girl-dancers-image-overlay:hover .girl-dancers-image-description {
+    transform: translateY(0);
+}
 
 /******************** Siam ********************/
 #siam-p1 {
