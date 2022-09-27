@@ -209,11 +209,16 @@ h2{
 .ayuthaya-birdseye-temple-complex,
 .cambodians-eating-image,
 .rice-farm-image,
-.girl-dancers-image {
+.girl-dancers-image,
+.prayers-image {
     position: relative;
 }
 
 .girl-dancers-image {
+    height: 100%;
+}
+
+.prayers-image {
     height: 100%;
 }
 
@@ -231,7 +236,8 @@ h2{
 .ayuthaya-birdseye-temple-complex-overlay,
 .cambodians-eating-image-overlay,
 .rice-farm-image-overlay,
-.girl-dancers-image-overlay {
+.girl-dancers-image-overlay,
+.prayers-image-overlay {
     position: absolute;    
     top: 0;
     left: 0;
@@ -294,7 +300,8 @@ h2{
 .ayuthaya-birdseye-temple-complex-overlay:hover,
 .cambodians-eating-image-overlay:hover,
 .rice-farm-image-overlay:hover,
-.girl-dancers-image-overlay:hover  {
+.girl-dancers-image-overlay:hover,
+.prayers-image-overlay:hover  {
     opacity: 1;
 }
 
@@ -312,7 +319,8 @@ h2{
 .ayuthaya-birdseye-temple-complex-description,
 .cambodians-eating-image-description,
 .rice-farm-image-description,
-.girl-dancers-image-description { 
+.girl-dancers-image-description,
+.prayers-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -333,6 +341,14 @@ h2{
 .imagex3-image-overlay:hover .imagex3-image-description,
 .london-harbor-image-overlay:hover .london-harbor-image-description {
     transform: translateY(0);
+}
+
+.prayers-image-overlay:hover .prayers-image-description {
+    transform: translateY(-45px);
+}
+
+#prayers-image-p {
+    line-height: 155% ;
 }
 
 .birdseye-image-overlay:hover .birdseye-image-description,
