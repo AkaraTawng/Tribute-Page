@@ -202,7 +202,11 @@ h2{
 }
 
 .map-image, .imagex1, .imagex2, .imagex3, .birdseye-image, .coastline-image,
-.london-harbor-image, .wat-arun-drawing-image, .wat-arun-photo-image {
+.london-harbor-image, .wat-arun-drawing-image, 
+.wat-arun-photo-image,
+.ayuthaya-buddha-image,
+.ayuthaya-closeup-image, 
+.ayuthaya-birdseye-temple-complex {
     position: relative;
 }
 
@@ -214,7 +218,10 @@ h2{
 .coastline-image-overlay,
 .london-harbor-image-overlay,
 .wat-arun-drawing-image-overlay,
-.wat-arun-photo-image-overlay {
+.wat-arun-photo-image-overlay,
+.ayuthaya-buddha-image-overlay,
+.ayuthaya-closeup-image-overlay, 
+.ayuthaya-birdseye-temple-complex-overlay {
     position: absolute;    
     top: 0;
     left: 0;
@@ -261,7 +268,10 @@ h2{
 .coastline-image-overlay:hover,
 .london-harbor-image-overlay:hover,
 .wat-arun-drawing-image-overlay:hover,
-.wat-arun-photo-image-overlay:hover {
+.wat-arun-photo-image-overlay:hover,
+.ayuthaya-buddha-image-overlay:hover,
+.ayuthaya-closeup-image-overlay:hover, 
+.ayuthaya-birdseye-temple-complex-overlay:hover {
     opacity: 1;
 }
 
@@ -273,13 +283,22 @@ h2{
 .coastline-image-description,
 .london-harbor-image-description,
 .wat-arun-drawing-image-description,
-.wat-arun-photo-image-description { 
+.wat-arun-photo-image-description,
+.ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-description, 
+.ayuthaya-birdseye-temple-complex-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
     margin-top: 40%;
     transform: translateY(20px);
     transition: transform .25s;
+}
+
+.ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-description, 
+.ayuthaya-birdseye-temple-complex-description { 
+    transform: translateY(70px);
 }
 
 .map-image-overlay:hover .map-image-description, 
@@ -302,6 +321,12 @@ h2{
 .wat-arun-drawing-image-overlay:hover .wat-arun-drawing-image-description,
 .wat-arun-photo-image-overlay:hover .wat-arun-photo-image-description {
     transform: translateY(-20px);
+}
+`
+.ayuthaya-buddha-image-overlay:hover .ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description,  
+.ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(40px);
 }
  
 #greek {
