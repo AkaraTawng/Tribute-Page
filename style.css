@@ -838,7 +838,7 @@ h2{
 
 .angkor-photographer-image-description {
     padding-left: 1rem;
-    transform: translateY(160`px);
+    transform: translateY(160px);
 
 }
 .angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
@@ -918,7 +918,8 @@ h2{
 .cambodians-eating-image-description,
 .rice-farm-image-description,
 .girl-dancers-image-description,
-.prayers-image-description {
+.prayers-image-description,
+.angkor-photographer-image-description {
     font-size: 1.2rem !important;
 }
 
@@ -967,6 +968,10 @@ h2{
 
 .girl-dancers-image-overlay:hover .girl-dancers-image-description {
     transform: translateY(0);
+}
+
+.angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
+    transform: translateY(75px);
 }
 
 /******************** Siam ********************/
