@@ -1749,4 +1749,10 @@ ccccc
 .girl-dancers-image-overlay:hover .girl-dancers-image-description {
     transform: translateY(100px);
 }
+
+
+.prayers-image-overlay {
+    width: 99%;
+    left: 0;
+}
 } 
