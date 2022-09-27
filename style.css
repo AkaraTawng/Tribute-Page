@@ -739,35 +739,35 @@ h2{
 @media (max-width: 1200px) {
 
 /******************* early life ********************/
-    #map {
-        margin-left: -3rem;
-    }
+#map {
+    margin-left: -3rem;
+}
 
-    #map img{
-        height: 20rem;
-        width: 19rem;
-        margin-left: 4rem;
-        margin-top: 5rem;
-    }
+#map img{
+    height: 20rem;
+    width: 19rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
 
-    .map-image-overlay {
-        top: 19%;
-        width: 83%;
-        height: 76%;
-        border-radius: 15%;
-        color: white;
-        margin-left: -2rem;
-    }
-    
-    .exp img {
-        height: 20rem;
-        width: 19rem;
-    }
+.map-image-overlay {
+    top: 19%;
+    width: 83%;
+    height: 76%;
+    border-radius: 15%;
+    color: white;
+    margin-left: -2rem;
+}
 
-    .london-harbor-image-overlay {
-        width: 59.6%;
-        left: 20.2%;
-    }
+.exp img {
+    height: 20rem;
+    width: 19rem;
+}
+
+.london-harbor-image-overlay {
+    width: 59.6%;
+    left: 20.2%;
+}
 
 /******************** Siam ********************/
 .styleclass #img2 /*Painting Bangkok Harbor*/{
@@ -807,7 +807,9 @@ h2{
     transform: translateY(-30px);
 }
 
-ccccc
+.prayers-image-overlay:hover .prayers-image-description {
+    transform: translateY(-10px);
+}
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
@@ -1742,7 +1744,7 @@ ccccc
     left: 0;
 }
 
-.girl-dancers-image-description {
+.girl-dancers-image-descrifption {
     transform: translateY(120px);
 }
 
