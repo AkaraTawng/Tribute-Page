@@ -809,7 +809,10 @@ h2{
 .imagex2-image-description,
 .imagex3-image-description, 
 .wat-arun-drawing-image-description,
-.wat-arun-photo-image-description {
+.wat-arun-photo-image-description,
+.ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-description, 
+.ayuthaya-birdseye-temple-complex-description  {
     font-size: 1.2rem !important;
 }
 
@@ -838,6 +841,23 @@ h2{
 .london-harbor-image-overlay:hover .london-harbor-image-description {
     transform: translateY(-10px);
 }
+
+.ayuthaya-buddha-image-overlay,
+.ayuthaya-closeup-image-overlay, 
+.ayuthaya-birdseye-temple-complex-overlay {
+    height: 98%;
+    border-radius: 24%;
+    opacity: 0;
+} 
+
+.ayuthaya-buddha-image-overlay:hover .ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description {
+    transform: translateY(-30px);
+} 
+
+.ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(-45px);
+} 
 
 /******************** Siam ********************/
 #siam-p1 {
