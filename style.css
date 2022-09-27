@@ -208,8 +208,13 @@ h2{
 .ayuthaya-closeup-image, 
 .ayuthaya-birdseye-temple-complex,
 .cambodians-eating-image,
-.rice-farm-image {
+.rice-farm-image,
+.girl-dancers-image {
     position: relative;
+}
+
+.girl-dancers-image {
+    height: 100%;
 }
 
 .map-image-overlay, 
@@ -225,7 +230,8 @@ h2{
 .ayuthaya-closeup-image-overlay, 
 .ayuthaya-birdseye-temple-complex-overlay,
 .cambodians-eating-image-overlay,
-.rice-farm-image-overlay {
+.rice-farm-image-overlay,
+.girl-dancers-image-overlay {
     position: absolute;    
     top: 0;
     left: 0;
@@ -270,6 +276,10 @@ h2{
     border-radius: 50px;
 }
 
+.girl-dancers-image-overlay {
+    border-radius: 50px;
+}
+
 .map-image-overlay:hover,
 .imagex1-image-overlay:hover,
 .imagex2-image-overlay:hover,
@@ -283,7 +293,8 @@ h2{
 .ayuthaya-closeup-image-overlay:hover, 
 .ayuthaya-birdseye-temple-complex-overlay:hover,
 .cambodians-eating-image-overlay:hover,
-.rice-farm-image-overlay:hover  {
+.rice-farm-image-overlay:hover,
+.girl-dancers-image-overlay:hover  {
     opacity: 1;
 }
 
@@ -300,8 +311,8 @@ h2{
 .ayuthaya-closeup-image-description, 
 .ayuthaya-birdseye-temple-complex-description,
 .cambodians-eating-image-description,
-.rice-farm-image-description 
- { 
+.rice-farm-image-description,
+.girl-dancers-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -346,6 +357,10 @@ h2{
 
 .cambodians-eating-image-overlay:hover .cambodians-eating-image-description,
 .rice-farm-image-overlay:hover  .rice-farm-image-description {
+    transform: translateY(-80px);
+}
+
+.girl-dancers-image-overlay:hover .girl-dancers-image-description {
     transform: translateY(-80px);
 }
  
