@@ -1199,6 +1199,16 @@ h2{
     transform: translateY(0);
 }
 
+.girl-dancers-image-overlay {
+    width: 82.5%;
+    height: 94.3%;
+    left: 8%;
+}
+
+.girl-dancers-image-overlay:hover .girl-dancers-image-description {
+    transform: translateY(-15px);
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
