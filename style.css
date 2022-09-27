@@ -807,10 +807,7 @@ h2{
     transform: translateY(-30px);
 }
 
-.prayers-image-overlay:hover .prayers-image-description {
-    transform: translateY(-20px);
-}
-
+ccccc
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
@@ -1227,6 +1224,17 @@ h2{
 }
 
 .girl-dancers-image-overlay:hover .girl-dancers-image-description {
+    transform: translateY(-15px);
+}
+
+.prayers-image-overlay {
+    width: 82.5%;
+    height: 93.9%;
+    border-radius: 50px;
+    left: 8%;
+}
+
+.prayers-image-overlay:hover .prayers-image-description {
     transform: translateY(-15px);
 }
 
