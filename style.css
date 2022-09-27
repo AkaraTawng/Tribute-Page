@@ -1399,6 +1399,26 @@ h2{
     transform: translateY(100px);
 }
 
+.ayuthaya-buddha-image-overlay,
+.ayuthaya-closeup-image-overlay, 
+.ayuthaya-birdseye-temple-complex-overlay {
+    height: 99%;
+    width: 80%;
+    left: 10%;
+}
+
+.ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-description, 
+.ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(150px);
+}
+
+.ayuthaya-buddha-image-overlay:hover .ayuthaya-buddha-image-description,
+.ayuthaya-closeup-image-overlay:hover .ayuthaya-closeup-image-description,
+.ayuthaya-birdseye-temple-complex-overlay:hover .ayuthaya-birdseye-temple-complex-description {
+    transform: translateY(105px);
+} 
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
