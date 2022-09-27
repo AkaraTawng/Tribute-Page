@@ -1557,6 +1557,21 @@ ccccc
     transform: translateY(110px);
 }
 
+.prayers-image-overlay {
+    width: 89%;
+    height: 93.9%;
+    border-radius: 50px;
+    left: 5%;
+}
+
+.prayers-image-description {
+    transform: translateY(150px);
+}
+
+.prayers-image-overlay:hover .prayers-image-description {
+    transform: translateY(100px);
+}
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
