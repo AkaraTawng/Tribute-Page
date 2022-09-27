@@ -1627,6 +1627,16 @@ h2{
     transform: translateY(100px);
 }
 
+.angkor-photographer-image-overlay {
+    width: 89%;
+    height: 94%;
+    left: 5%;
+}
+
+.angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
+    transform: translateY(110px);
+}
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
