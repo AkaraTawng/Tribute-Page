@@ -1459,6 +1459,22 @@ h2{
     transform: translateY(105px);
 } 
 
+.cambodians-eating-image-overlay,
+.rice-farm-image-overlay {
+    width: 80%;
+    left: 10%;
+}
+
+.cambodians-eating-image-description,
+.rice-farm-image-description {
+    transform: translateY(150px);
+}
+
+.cambodians-eating-image-overlay:hover .cambodians-eating-image-description,
+.rice-farm-image-overlay:hover  .rice-farm-image-description {
+    transform: translateY(110px);
+}
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
