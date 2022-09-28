@@ -1069,7 +1069,11 @@ h2{
 .angkor-photographer-image-description,
 .angkor-elephants-image-description,
 .dance-group-image-description,
-.lao-meeting-image-description {
+.lao-meeting-image-description,
+.tomb1-image-description,
+.tomb2-image-description,
+.mouhot-statue-image-description,
+.riverbank-image-description {
     font-size: 1.2rem !important;
 }
 
@@ -1148,6 +1152,23 @@ h2{
 .lao-meeting-image-overlay:hover .lao-meeting-image-description {
     transform: translateY(-105px);
 }
+
+.tomb2-image-overlay:hover .tomb2-image-description {
+    transform: translateY(10px);
+}
+
+.riverbank-image-overlay:hover .riverbank-image-description {
+    transform: translateY(-90px);
+}
+
+.mouhot-statue-image-description {
+    transform: translateY(200px);
+}
+
+ .mouhot-statue-image-overlay:hover .mouhot-statue-image-description {
+    transform: translateY(95px);
+ }
+
 
 /******************** Siam ********************/
 #siam-p1 {
