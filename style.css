@@ -425,7 +425,11 @@ h2{
 }
 
 .dance-group-image-overlay:hover .dance-group-image-description {
-    transform: translateY(-25px);
+    transform: translateY(-50px);
+}
+
+.dance-group-image-description {
+    line-height: 3rem !important;
 }
 
 #greek {
@@ -789,7 +793,7 @@ h2{
     }
 
     .dance-group-image-overlay:hover .dance-group-image-description {
-        transform: translateY(-50px);
+        transform: translateY(-90px);
     }
 }
 
@@ -844,7 +848,6 @@ h2{
     width: 19rem;
 }
 
-
 .ayuthaya-buddha-image-description,
 .ayuthaya-closeup-image-description, 
 .ayuthaya-birdseye-temple-complex-description { 
@@ -886,6 +889,10 @@ h2{
 .angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
     transform: translateY(15px);
 }
+
+/* .dance-group-image-overlay:hover .dance-group-image-description {
+    transform: translateY(-400px);
+} */
 
 /******************** Cambodia ********************/
 #cambodia img {
