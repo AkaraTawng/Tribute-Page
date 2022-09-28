@@ -913,6 +913,10 @@ h2{
     transform: translateY(-40px);
 }
 
+.lao-meeting-image-overlay {
+    width: 59.4%;
+    left: 20.3%;
+}
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
