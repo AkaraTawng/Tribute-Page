@@ -1369,6 +1369,16 @@ h2{
     left: 8%;
 }
 
+.dance-group-image-overlay {
+    height: 94%;
+    left: 8%;
+    width: 82.4%;
+}
+
+.dance-group-image-overlay:hover .dance-group-image-description {
+    transform: translateY(-10px);
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
