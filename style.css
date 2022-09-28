@@ -212,7 +212,8 @@ h2{
 .girl-dancers-image,
 .prayers-image,
 .angkor-photographer-image,
-.angkor-elephants-image {
+.angkor-elephants-image,
+.dance-group-image {
     position: relative;
 }
 
@@ -229,6 +230,10 @@ h2{
 }
 
 .angkor-elephants-image {
+    height: 100%;
+}
+
+.dance-group-image {
     height: 100%;
 }
 
@@ -249,7 +254,8 @@ h2{
 .girl-dancers-image-overlay,
 .prayers-image-overlay,
 .angkor-photographer-image-overlay,
-.angkor-elephants-image-overlay  {
+.angkor-elephants-image-overlay,
+.dance-group-image-overlay  {
     position: absolute;    
     top: 0;
     left: 0;
@@ -319,7 +325,8 @@ h2{
 .girl-dancers-image-overlay:hover,
 .prayers-image-overlay:hover,
 .angkor-photographer-image-overlay:hover,
-.angkor-elephants-image-overlay:hover  {
+.angkor-elephants-image-overlay:hover,
+.dance-group-image-overlay:hover  {
     opacity: 1;
 }
 
@@ -340,7 +347,8 @@ h2{
 .girl-dancers-image-description, 
 .prayers-image-description,
 .angkor-photographer-image-description,
-.angkor-elephants-image-description { 
+.angkor-elephants-image-description,
+.dance-group-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -414,6 +422,10 @@ h2{
 
 .angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
     transform: translateY(30px);
+}
+
+.dance-group-image-overlay:hover .dance-group-image-description {
+    transform: translateY(-25px);
 }
 
 #greek {
@@ -1881,6 +1893,6 @@ h2{
 .angkor-elephants-image-overlay {
     width: 99%;
     left: 0;
-}
+}`
 
 } 
