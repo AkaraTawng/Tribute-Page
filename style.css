@@ -994,7 +994,8 @@ h2{
 .prayers-image-description,
 .angkor-photographer-image-description,
 .angkor-elephants-image-description,
-.dance-group-image-description {
+.dance-group-image-description,
+.lao-meeting-image-description {
     font-size: 1.2rem !important;
 }
 
@@ -1068,6 +1069,10 @@ h2{
 .lao-meeting-image-overlay {
     width: 81%;
     left: 9.5%;
+}
+
+.lao-meeting-image-overlay:hover .lao-meeting-image-description {
+    transform: translateY(-105px);
 }
 
 /******************** Siam ********************/
@@ -1412,7 +1417,7 @@ h2{
 }
 
 .lao-meeting-image-overlay:hover .lao-meeting-image-description {
-    transform: translateY(-70px);
+    transform: translateY(-60px);
 }
 
 .jersey-flex-container {
@@ -1784,6 +1789,14 @@ h2{
     transform: translateY(90px);
 }
 
+.lao-meeting-image-description {
+    transform: translateY(120px);
+}
+
+.lao-meeting-image-overlay:hover .lao-meeting-image-description {
+    transform: translateY(80px);
+}
+
 
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
@@ -1980,6 +1993,10 @@ h2{
 .dance-group-image-overlay {
     width: 99%;
     left: 0;
+}
+
+.lao-meeting-image-overlay:hover .lao-meeting-image-description {
+    transform: translateY(-70px);
 }
 
 } 
