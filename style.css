@@ -214,27 +214,23 @@ h2{
 .angkor-photographer-image,
 .angkor-elephants-image,
 .dance-group-image,
-.lao-meeting-image {
+.lao-meeting-image
+ {
     position: relative;
 }
 
-.girl-dancers-image {
-    height: 100%;
-}
-
-.prayers-image {
-    height: 100%;
-}
-
-.angkor-photographer-image {
-    height: 100%;
-}
-
-.angkor-elephants-image {
-    height: 100%;
-}
-
+.girl-dancers-image,
+.prayers-image,
+.angkor-photographer-image,
+.angkor-elephants-image,
 .dance-group-image {
+    height: 100%;
+}
+
+.tomb1-image,
+.tomb2-image,
+.riverbank-image,
+.mouhot-statue-image {
     height: 100%;
 }
 
@@ -257,18 +253,23 @@ h2{
 .angkor-photographer-image-overlay,
 .angkor-elephants-image-overlay,
 .dance-group-image-overlay,
-.lao-meeting-image-overlay  {
+.lao-meeting-image-overlay,
+.tomb1-image-overlay,
+.tomb2-image-overlay,
+.riverbank-image-overlay,
+.mouhot-statue-image-overlay   {
     position: absolute;    
     top: 0;
     left: 0;
     width: 100%; 
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
-    border-radius: 12%;
+    /* border-radius: 12%; */
     color: white;
     opacity: 0;
     transition: opacity .25s;
     /* opacity: 1; */
+    border-radius: 50px;
 } 
 
 .birdseye-image-overlay, 
@@ -335,7 +336,11 @@ h2{
 .angkor-photographer-image-overlay:hover,
 .angkor-elephants-image-overlay:hover,
 .dance-group-image-overlay:hover,
-.lao-meeting-image-overlay:hover  {
+.lao-meeting-image-overlay:hover,
+.tomb1-image-overlay:hover,
+.tomb2-image-overlay:hover,
+.riverbank-image-overlay:hover,
+.mouhot-statue-image-overlay:hover   {
     opacity: 1;
 }
 
@@ -358,7 +363,11 @@ h2{
 .angkor-photographer-image-description,
 .angkor-elephants-image-description,
 .dance-group-image-description,
-.lao-meeting-image-description { 
+.lao-meeting-image-description,
+.tomb1-image-description,
+.tomb2-image-description,
+.riverbank-image-description,
+.mouhot-statue-image-description  { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -441,6 +450,26 @@ h2{
 .lao-meeting-image-overlay:hover .lao-meeting-image-description {
     transform: translateY(-130px);
 }
+
+.tomb1-image-overlay:hover .tomb1-image-description {
+    transform: translateY(-60px);
+}
+
+.tomb2-image-overlay:hover .tomb2-image-description {
+    transform: translateY(0);
+}
+
+.riverbank-image-overlay:hover .riverbank-image-description {
+    transform: translateY(-150px);
+}
+
+.mouhot-statue-image-description {
+    transform: translateY(200px);
+}
+
+ .mouhot-statue-image-overlay:hover .mouhot-statue-image-description {
+    transform: translateY(160px);
+ }
 
 .dance-group-image-description {
     line-height: 3rem !important;
@@ -814,6 +843,27 @@ h2{
         width: 37.1%;
         left: 31.5%;
     }
+
+    
+.tomb1-image-overlay:hover .tomb1-image-description {
+    transform: translateY(-110px);
+}
+
+.tomb2-image-overlay:hover .tomb2-image-description {
+    transform: translateY(0);
+}
+
+.riverbank-image-overlay:hover .riverbank-image-description {
+    transform: translateY(-22`0px);
+}
+
+.mouhot-statue-image-description {
+    transform: translateY(200px);
+}
+
+ .mouhot-statue-image-overlay:hover .mouhot-statue-image-description {
+    transform: translateY(160px);
+ }
 }
 
 /* ---------------------------------------------------------------------- */
