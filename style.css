@@ -809,6 +809,11 @@ h2{
     .dance-group-image-overlay:hover .dance-group-image-description {
         transform: translateY(-90px);
     }
+
+    .lao-meeting-image-overlay {
+        width: 37.1%;
+        left: 31.5%;
+    }
 }
 
 /* ---------------------------------------------------------------------- */
