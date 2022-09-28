@@ -1933,12 +1933,14 @@ h2{
     width: 89%;
     height: 93.5%;
 }
+
 .tomb1-image-description, 
 .tomb2-image-description,
 .riverbank-image-description,
 .mouhot-statue-image-description {
     transform: translateY(160px);
 }
+
 .tomb1-image-overlay:hover .tomb1-image-description,
 .tomb2-image-overlay:hover .tomb2-image-description,
 .riverbank-image-overlay:hover .riverbank-image-description,
@@ -2150,6 +2152,15 @@ h2{
 
 .lao-meeting-image-overlay:hover .lao-meeting-image-description {
     transform: translateY(80px);
+}
+
+.tomb1-image-overlay,
+.tomb2-image-overlay,
+.mouhot-statue-image-overlay,
+.riverbank-image-overlay,
+.mouhot-statue-image-overlay {
+    left: 0;
+    width: 100%;
 }
 
 } 
