@@ -1065,6 +1065,10 @@ h2{
     transform: translateY(-30px);
 }
 
+.lao-meeting-image-overlay {
+    width: 81%;
+    left: 9.5%;
+}
 
 /******************** Siam ********************/
 #siam-p1 {
