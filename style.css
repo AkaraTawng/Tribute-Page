@@ -213,7 +213,8 @@ h2{
 .prayers-image,
 .angkor-photographer-image,
 .angkor-elephants-image,
-.dance-group-image {
+.dance-group-image,
+.lao-meeting-image {
     position: relative;
 }
 
@@ -255,7 +256,8 @@ h2{
 .prayers-image-overlay,
 .angkor-photographer-image-overlay,
 .angkor-elephants-image-overlay,
-.dance-group-image-overlay  {
+.dance-group-image-overlay,
+.lao-meeting-image-overlay  {
     position: absolute;    
     top: 0;
     left: 0;
@@ -308,6 +310,12 @@ h2{
     border-radius: 50px;
 }
 
+.lao-meeting-image-overlay {
+    width: 46.4%;
+    border-radius: 50px;
+    left: 26.8%;
+}
+
 .map-image-overlay:hover,
 .imagex1-image-overlay:hover,
 .imagex2-image-overlay:hover,
@@ -326,7 +334,8 @@ h2{
 .prayers-image-overlay:hover,
 .angkor-photographer-image-overlay:hover,
 .angkor-elephants-image-overlay:hover,
-.dance-group-image-overlay:hover  {
+.dance-group-image-overlay:hover,
+.lao-meeting-image-overlay:hover  {
     opacity: 1;
 }
 
@@ -348,7 +357,8 @@ h2{
 .prayers-image-description,
 .angkor-photographer-image-description,
 .angkor-elephants-image-description,
-.dance-group-image-description { 
+.dance-group-image-description,
+.lao-meeting-image-description { 
     font-size: 2rem !important;
     font-weight: bold;
     padding: 0 10%;
@@ -426,6 +436,10 @@ h2{
 
 .dance-group-image-overlay:hover .dance-group-image-description {
     transform: translateY(-50px);
+}
+
+.lao-meeting-image-overlay:hover .lao-meeting-image-description {
+    transform: translateY(-130px);
 }
 
 .dance-group-image-description {
