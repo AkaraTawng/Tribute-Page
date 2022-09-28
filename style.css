@@ -866,7 +866,7 @@ h2{
 }
 
 .angkor-elephants-image-description {
-    line-height: 3rem !important;
+    line-height: 2rem !important;
 }
 
 .angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
@@ -948,7 +948,8 @@ h2{
 .rice-farm-image-description,
 .girl-dancers-image-description,
 .prayers-image-description,
-.angkor-photographer-image-description {
+.angkor-photographer-image-description,
+.angkor-elephants-image-description {
     font-size: 1.2rem !important;
 }
 
@@ -1002,6 +1003,11 @@ h2{
 .angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
     transform: translateY(75px);
 }
+
+.angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
+    transform: translateY(5px);
+}
+
 
 /******************** Siam ********************/
 #siam-p1 {
