@@ -1328,6 +1328,13 @@ h2{
     transform: translateY(0);
 }
 
+.angkor-elephants-image-overlay {
+    height: 94%;
+    width: 82.8%;
+    border-radius: 50px;
+    left: 8%;
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
