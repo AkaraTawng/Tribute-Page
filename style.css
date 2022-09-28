@@ -970,8 +970,13 @@ h2{
 .girl-dancers-image-description,
 .prayers-image-description,
 .angkor-photographer-image-description,
-.angkor-elephants-image-description {
+.angkor-elephants-image-description,
+.dance-group-image-description {
     font-size: 1.2rem !important;
+}
+
+.dance-group-image-description {
+    line-height: 2rem !important;
 }
 
 #early-life-p2 {
@@ -1027,6 +1032,14 @@ h2{
 
 .angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
     transform: translateY(5px);
+}
+
+.dance-group-image-overlay {
+    border-radius: 50px;
+}
+
+.dance-group-image-overlay:hover .dance-group-image-description {
+    transform: translateY(-30px);
 }
 
 
