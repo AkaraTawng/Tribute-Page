@@ -1515,6 +1515,39 @@ h2{
     transform: translateY(-60px);
 }
 
+.tomb1-image-overlay, 
+.tomb2-image-overlay, 
+.riverbank-image-overlay,
+.mouhot-statue-image-overlay {
+    width: 83%;
+    left: 8%;
+    height: 94.5%;
+}
+
+.tomb1-image-overlay:hover .tomb1-image-description {
+    transform: translateY(10px);
+} 
+
+.tomb2-image-description {
+    transform: translateY(20px);
+}
+
+.tomb2-image-overlay:hover .tomb2-image-description {
+    transform: translateY(10px);
+}
+
+.riverbank-image-overlay:hover .riverbank-image-description {
+    transform: translateY(0);
+}
+
+.mouhot-statue-image-description {
+    transform: translateY(200px);
+}
+
+ .mouhot-statue-image-overlay:hover .mouhot-statue-image-description {
+    transform: translateY(-10px);
+ }
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
