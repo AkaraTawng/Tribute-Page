@@ -890,9 +890,9 @@ h2{
     transform: translateY(15px);
 }
 
-/* .dance-group-image-overlay:hover .dance-group-image-description {
-    transform: translateY(-400px);
-} */
+.dance-group-image-overlay:hover .dance-group-image-description {
+    transform: translateY(-40px);
+}
 
 /******************** Cambodia ********************/
 #cambodia img {
