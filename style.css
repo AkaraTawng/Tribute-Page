@@ -1831,7 +1831,6 @@ h2{
 }
 
 .london-harbor-image-overlay {
-    /* opacity: 1; */
     width: 89.2%;
     left: 5.3%;
 }
@@ -1875,6 +1874,11 @@ h2{
 }
 
 .angkor-photographer-image-overlay {
+    width: 99%;
+    left: 0;
+}
+
+.angkor-elephants-image-overlay {
     width: 99%;
     left: 0;
 }
