@@ -772,7 +772,11 @@ h2{
     .angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
         transform: translateY(40px);
     }
-     
+
+    .angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
+        transform: translateY(-20px);
+    }
+         
 }
 
 /* ---------------------------------------------------------------------- */
