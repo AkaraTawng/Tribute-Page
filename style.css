@@ -854,7 +854,7 @@ h2{
 }
 
 .riverbank-image-overlay:hover .riverbank-image-description {
-    transform: translateY(-22`0px);
+    transform: translateY(-220px);
 }
 
 .mouhot-statue-image-description {
@@ -1753,7 +1753,6 @@ h2{
     transform: translateY(150px);
 }
 
-
 .birdseye-image-overlay, 
 .coastline-image-overlay {
     height: 85%;
@@ -1925,6 +1924,27 @@ h2{
     transform: translateY(80px);
 }
 
+.tomb1-image-overlay,
+.tomb2-image-overlay,
+.mouhot-statue-image-overlay,
+.riverbank-image-overlay,
+.mouhot-statue-image-overlay {
+    left: 5%;
+    width: 89%;
+    height: 93.5%;
+}
+.tomb1-image-description, 
+.tomb2-image-description,
+.riverbank-image-description,
+.mouhot-statue-image-description {
+    transform: translateY(160px);
+}
+.tomb1-image-overlay:hover .tomb1-image-description,
+.tomb2-image-overlay:hover .tomb2-image-description,
+.riverbank-image-overlay:hover .riverbank-image-description,
+.mouhot-statue-image-overlay:hover .mouhot-statue-image-description {
+    transform: translateY(110px);
+}
 
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
