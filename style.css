@@ -1678,6 +1678,19 @@ h2{
     transform: translateY(110px);
 }
 
+.angkor-elephants-image-overlay {
+    width: 90%;
+    left: 4%;
+}
+
+.angkor-elephants-image-description  {
+    transform: translateY(170px);
+}
+
+.angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
+    transform: translateY(125px);
+}
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
