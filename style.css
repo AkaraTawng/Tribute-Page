@@ -2152,4 +2152,12 @@ h2{
     transform: translateY(80px);
 }
 
+.tomb1-image-overlay, 
+.tomb2-image-overlay, 
+.riverbank-image-overlay,
+.mouhot-statue-image-overlay {
+    width: 100%;
+    left: 0;
+}
+
 } 
