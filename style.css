@@ -967,6 +967,30 @@ h2{
     width: 59.4%;
     left: 20.3%;
 }
+
+.tomb1-image-overlay:hover .tomb1-image-description {
+    transform: translateY(-30px);
+}
+
+.tomb2-image-description {
+    transform: translateY(100px);
+}
+
+.tomb2-image-overlay:hover .tomb2-image-description {
+    transform: translateY(50px);
+}
+
+.riverbank-image-overlay:hover .riverbank-image-description {
+    transform: translateY(-90px);
+}
+
+.mouhot-statue-image-description {
+    transform: translateY(200px);
+}
+
+ .mouhot-statue-image-overlay:hover .mouhot-statue-image-description {
+    transform: translateY(140px);
+ }
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
