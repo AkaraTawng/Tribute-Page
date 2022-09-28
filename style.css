@@ -864,6 +864,15 @@ h2{
 .angkor-photographer-image-overlay:hover .angkor-photographer-image-description {
     transform: translateY(110px);
 }
+
+.angkor-elephants-image-description {
+    line-height: 3rem !important;
+}
+
+.angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
+    transform: translateY(15px);
+}
+
 /******************** Cambodia ********************/
 #cambodia img {
    width: 30rem;  
