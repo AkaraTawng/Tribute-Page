@@ -767,7 +767,6 @@ h2{
         margin-left: 7rem;
     }
     .map-image-overlay {
-        /* opacity: 1; */
         margin-left: 1rem;
         width: 78%;
     }
@@ -788,7 +787,10 @@ h2{
     .angkor-elephants-image-overlay:hover .angkor-elephants-image-description {
         transform: translateY(-20px);
     }
-         
+
+    .dance-group-image-overlay:hover .dance-group-image-description {
+        transform: translateY(-50px);
+    }
 }
 
 /* ---------------------------------------------------------------------- */
@@ -1893,6 +1895,6 @@ h2{
 .angkor-elephants-image-overlay {
     width: 99%;
     left: 0;
-}`
+}
 
 } 
