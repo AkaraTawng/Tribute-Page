@@ -1735,6 +1735,20 @@ h2{
     transform: translateY(125px);
 }
 
+.dance-group-image-overlay {
+    width: 89%;
+    left: 5%;
+}
+
+.dance-group-image-description {
+    transform: translateY(140px);
+}
+
+.dance-group-image-overlay:hover .dance-group-image-description {
+    transform: translateY(90px);
+}
+
+
 #early-life-p1, #early-life-p2 {
     margin-left: 2.5rem;
 }
