@@ -1406,6 +1406,15 @@ h2{
     transform: translateY(-10px);
 }
 
+.lao-meeting-image-overlay {
+    width: 90%;
+    left: 5%;
+}
+
+.lao-meeting-image-overlay:hover .lao-meeting-image-description {
+    transform: translateY(-70px);
+}
+
 .jersey-flex-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
