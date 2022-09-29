@@ -2052,7 +2052,7 @@ h2{
 
 .map-image-overlay {
     top: 5%;
-    width: 89%;
+    width: 90%;
     height: 95%;
     margin-left: -.4rem;
     border-radius: 15%;
@@ -2155,7 +2155,7 @@ h2{
 .tomb2-image-overlay, 
 .riverbank-image-overlay,
 .mouhot-statue-image-overlay {
-    width: 99.1%;
+    width: 100%;
     left: 0;
     height: 93.5%;
 }
