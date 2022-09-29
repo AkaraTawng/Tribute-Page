@@ -29,6 +29,11 @@
 ---
 
 # What I learned? 👨‍💻
-- How to use CSS Grid to make an image gallery
-- How to add text overlay effect to images
-- How to make custom logo hamburger menu using Photoshop and CSS
+- How to use CSS Grid to make an image gallery.
+- How to add text overlay effect to images.
+- How to make custom logo hamburger menu using Photoshop and CSS.
+
+# Challenges ✊
+- Use CSS Grid to make a responsive image gallery.
+- Organize the large amount of text and image content in a visually interesting way.
+- Add a responsive descriptive text & semi-transparent color overlay hover effect to all images.  
