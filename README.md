@@ -16,15 +16,15 @@
 
 # Features ⚙
 ## Fully responsive UI
-![fully responsive ui 1](/gifs/fully-responsive-1.gif)
-![fully responsive ui 2](/gifs/fully-responsive-2.gif)
+![fully responsive ui 1](./gifs/fully-responsive-1.gif)
+![fully responsive ui 2](./gifs/fully-responsive-2.gif)
 
 ## Custom Designed Hamburger Menu
-![hamburger gif](/gifs/hamburger.gif)
+![hamburger gif](./gifs/hamburger.gif)
 
 
 ## Descriptive Image Overlay
-![decriptive image overlay gif](/gifs/image-overlay.gif)
+![descriptive image overlay gif](./gifs/image-overlay.gif)
 
 ---
 
