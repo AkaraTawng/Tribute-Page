@@ -29,3 +29,6 @@
 ---
 
 # What I learned? 👨‍💻
+- How to use CSS Grid to make an image gallery
+- How to add text overlay effect to images
+- How to make custom logo hamburger menu using Photoshop and CSS
